@@ -1,0 +1,242 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{entropy}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Cincotta}}{C.}%
+     {P.~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mendez}}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nunez}}{N.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{METHODS: ANALYTICAL, METHODS: NUMERICAL, STARS: VARIABLES: OTHER}
+  \strng{namehash}{CPMMMNJA1}
+  \strng{fullhash}{CPMMMNJA1}
+  \field{labelyear}{1995}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1086/176050
+  \endverb
+  \field{pages}{231}
+  \field{title}{{Astronomical Time Series Analysis. I. A Search for Periodicity
+  Using Information Entropy}}
+  \field{volume}{449}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{1995}
+\endentry
+
+\entry{fer_mello}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Ferraz-Mello}}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FS1}
+  \strng{fullhash}{FS1}
+  \field{labelyear}{1981}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1086/112924
+  \endverb
+  \field{pages}{619}
+  \field{title}{{Estimation of Periods from Unequally Spaced Observations}}
+  \field{volume}{86}
+  \field{journaltitle}{The Astronomical Journal}
+  \field{month}{04}
+  \field{year}{1981}
+\endentry
+
+\entry{comparison}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {{Graham}}{G.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Drake}}{D.}%
+     {A.~J.}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Djorgovski}}{D.}%
+     {S.~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mahabal}}{M.}%
+     {A.~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Donalek}}{D.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Duan}}{D.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Maker}}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{methods: data analysis, techniques: photometric, astronomical data
+  bases: miscellaneous, virtual observatory tools}
+  \strng{namehash}{GMJ+1}
+  \strng{fullhash}{GMJDAJDSGMAADCDVMA1}
+  \field{labelyear}{2013}
+  \field{extrayear}{1}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1093/mnras/stt1264
+  \endverb
+  \verb{eprint}
+  \verb 1307.2209
+  \endverb
+  \field{pages}{3423\bibrangedash 3444}
+  \field{title}{{A comparison of period finding algorithms}}
+  \field{volume}{434}
+  \field{journaltitle}{Monthly Notices of the RAS}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{10}
+  \field{year}{2013}
+\endentry
+
+\entry{ce}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {{Graham}}{G.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Drake}}{D.}%
+     {A.~J.}{A.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Djorgovski}}{D.}%
+     {S.~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mahabal}}{M.}%
+     {A.~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Donalek}}{D.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{methods: data analysis, techniques: photometric, astronomical data
+  bases: miscellaneous}
+  \strng{namehash}{GMJ+1}
+  \strng{fullhash}{GMJDAJDSGMAADC1}
+  \field{labelyear}{2013}
+  \field{extrayear}{2}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1093/mnras/stt1206
+  \endverb
+  \verb{eprint}
+  \verb 1306.6664
+  \endverb
+  \field{pages}{2629\bibrangedash 2635}
+  \field{title}{{Using conditional entropy to identify periodicity}}
+  \field{volume}{434}
+  \field{journaltitle}{Monthly Notices of RAS}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{09}
+  \field{year}{2013}
+\endentry
+
+\entry{lomb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Lomb}}{L.}%
+     {N.~R.}{N.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astronomy, Data Reduction, Least Squares Method, Background Noise,
+  Power Spectra, Sine Waves, Spectrum Analysis, Statistical Analysis, Variable
+  Stars}
+  \strng{namehash}{LNR1}
+  \strng{fullhash}{LNR1}
+  \field{labelyear}{1976}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1007/BF00648343
+  \endverb
+  \field{pages}{447\bibrangedash 462}
+  \field{title}{{Least-squares frequency analysis of unequally spaced data}}
+  \field{volume}{39}
+  \field{journaltitle}{Astrophysics and Space Science}
+  \field{month}{02}
+  \field{year}{1976}
+\endentry
+
+\entry{aov}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Schwarzenberg-Czerny}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astronomical Photometry, Computational Astrophysics, Cosmology,
+  Variance (Statistics), Probability Distribution Functions, Statistical
+  Analysis}
+  \strng{namehash}{SA1}
+  \strng{fullhash}{SA1}
+  \field{labelyear}{1989}
+  \field{sortinit}{S}
+  \field{pages}{153\bibrangedash 165}
+  \field{title}{{On the advantage of using analysis of variance for period
+  search}}
+  \field{volume}{241}
+  \field{journaltitle}{Monthly Notices of the RAS}
+  \field{month}{11}
+  \field{year}{1989}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

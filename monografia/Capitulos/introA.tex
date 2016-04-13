@@ -1,0 +1,31 @@
+%\graphicspath{{/figuras}}
+\chapter{Introdu\c{c}ão}
+
+%The methods used to search for periodicity in astronomical time
+%series may be divided into two groups: Fourier techniques and
+%phase-diagram analyses. The first group includes the classical
+%Fourier transform, and its variations introduced to deal with
+%unevenly sampled data. The second one is based on the analysis of the dispersion of the light curve, observed data folded over a trial period as a function of phase, for a set of trial periods.
+
+Na astronomia, especialmente no campo das estrelas variáveis, geralmente é necessário analisar dados com períodos desconhecidos. Existem métodos desenvolvidos para lidar com dados que possuem intervalos espaciais uniformes, porem, as observa\c{c}ões geralmente são limitadas para o período da noite e possuem limita\c{c}ões devido ao clima e disponibilidade do telescópio, o que faz com que os dados sejam espa\c{c}ados por uma ordem de horas, dias ou até mesmo meses \citep{fer_mello}. Assim, os dados obtidos raramente são igualmente espaçados.
+
+
+A obtenção do período de pulsação de uma estrela variável é fundamental para descrever a estrela. Através do seu período podemos estimar os valores de luminosidade, massa, distância, densidade, etc.
+
+
+Existem diversos algoritmos para a determina\c{c}ão de períodos em dados astronômicos. Cada um possui um método diferente ou alguma pequena modifica\c{c}ão em rela\c{c}ão aos demais. Mesmo com uma grande quantidade de métodos, nenhum deles parece se sobressair de uma forma geral \citep{comparison}. Alguns métodos são melhores para lidar com dados que sejam igualmente espaçados, enquanto que outros métodos lidam melhor com períodos senoidais, etc.
+
+
+
+
+Os modelos mais utilizados para determina\c{c}ão de períodos em séries temporais astronômicas fazem um ajuste de curva utilizando o método do mínimos quadrados \citep{lomb} ou utilizam análise de Fourier \citep{fer_mello}. Outros métodos tentam minimizar alguma grandeza na dispersão da série temporal no espa\c{c}o de fase, como é o caso da análise de variância \citep{aov} e da entropia \citep{entropy}.
+
+%Como dito anteriormente, cada método possui certas vantagens e disvantagens. Por exemplo, a analise de Fourier é eficiente e rápida, porém não é muito sensitiva para para fun\c{c}ões não senoidais
+
+%Each method has certain advantages and disadvantages. For example, while Fourier analysis is faster and extremely efficient, it is much less sensitive to non-sinusoidal functions than the phase-diagram analysis. Also, phase-diagram methods are less affected by randomly occurring gaps in the data, provided that the coverage of the light curve is reasonably uniform in phase space.
+
+A ideia deste projeto é testar um método para determinar multiplos períodos de pulsa\c{c}ão de estrelas variáveis, tendo em vista que nenhum destes métodos são aplicados diretamente para esta fun\c{c}ão. Este método, chamado de Entropia Condicional, busca a minimiza\c{c}ão da entropia de Shannon condicional na dispersão da série temporal no espa\c{c}o de fase.
+%In this paper, we present a phase-diagram analyses method called Conditional Entropy method. The idea is develop a fast and reliable method to work with variable stars.
+
+
+\section{A Musica das Esferas}
