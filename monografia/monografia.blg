@@ -15,49 +15,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: monografia-blx.bib
 Database file #2: references/ref.bib
-Warning--I didn't find a database entry for "lyraes"
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 7 entries,
+You've used 8 entries,
             6047 wiz_defined-function locations,
-            1183 strings with 9721 characters,
-and the built_in function-call counts, 21100 in all, are:
-= -- 686
-> -- 742
-< -- 169
-+ -- 237
-- -- 285
-* -- 1812
-:= -- 1478
+            1192 strings with 10161 characters,
+and the built_in function-call counts, 25428 in all, are:
+= -- 817
+> -- 895
+< -- 196
++ -- 296
+- -- 353
+* -- 2309
+:= -- 1755
 add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 66
-chr.to.int$ -- 70
-cite$ -- 12
-duplicate$ -- 2333
-empty$ -- 2273
-format.name$ -- 453
-if$ -- 4659
+call.type$ -- 8
+change.case$ -- 77
+chr.to.int$ -- 76
+cite$ -- 14
+duplicate$ -- 2865
+empty$ -- 2714
+format.name$ -- 597
+if$ -- 5549
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 16
 missing$ -- 0
-newline$ -- 234
-num.names$ -- 249
-pop$ -- 1972
+newline$ -- 300
+num.names$ -- 290
+pop$ -- 2318
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 106
 quote$ -- 0
-skip$ -- 1128
+skip$ -- 1332
 stack$ -- 0
-substring$ -- 389
-swap$ -- 880
-text.length$ -- 184
-text.prefix$ -- 6
+substring$ -- 433
+swap$ -- 1085
+text.length$ -- 217
+text.prefix$ -- 7
 top$ -- 1
-type$ -- 254
+type$ -- 292
 warning$ -- 0
-while$ -- 194
+while$ -- 218
 width$ -- 0
-write$ -- 226
-(There was 1 warning)
+write$ -- 291

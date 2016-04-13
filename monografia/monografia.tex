@@ -21,10 +21,10 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
+%para deixar o arquivo com estilo livro, comentar o "oneside"
 \documentclass[
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, brazil, % ngerman for German
 %singlespacing, % Single line spacing, alternatives: 
 %onehalfspacing,  or 
@@ -42,6 +42,8 @@ liststotoc, % Uncomment to add the list of figures/tables/etc to the table of co
 %\usepackage{palatino} % Use the Palatino font by default
 
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % User the bibtex backend with the authoryear citation style (which resembles APA)
+
+%\usepackage{scrextend}
 
 \addbibresource{references/ref.bib} % The filename of the bibliography
 
@@ -129,7 +131,7 @@ liststotoc, % Uncomment to add the list of figures/tables/etc to the table of co
 
 
 \begin{titlepage}
-\begin{center}
+	\begin{center}
 %\vspace*{1cm}
 \large
 Universidade Federal do Rio Grande - FURG \\
@@ -149,70 +151,60 @@ Rio Grande - RS \\
 \end{titlepage}
 
 \begin{titlepage}
-\begin{center}
-%\vspace*{1cm}
-\begin{comment}
-\large
-Universidade Federal do Rio Grande - FURG \\
-Instituto de Matemática, Estatística e Física - IMEF \\
-Grupo de Astrofísica Teórica e Computacional - GATC \\
-\vspace{5cm}
-\end{comment}
-%\Huge
-\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional}
-\normalsize
-\vfill
-%\vspace{5cm}
+	\begin{center}
+		\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional}
 
-\begin{flushright}
-%\large
- \textit{Trabalho de Conclusão de Curso apresentado ao curso de Física Bacharelado da Universidade Federal do Rio Grande como requisito parcial para obtenção do título de bacharel em Física.}\\ [0.3cm] % University requirement text
+		\normalsize
+		
+		\vfill
 
-%\begin{addmargin}[6cm]{0cm}
-%Trabalho de Conclusão de Curso apresentado ao curso de Física
-%Bacharelado da Universidade Federal do Rio Grande como requisito
-%parcial para obtenção do título de bacharel em Física.
-%\end{addmargin}
-\normalsize
-Orientador: Prof. Dr. Fabricio Ferrari
+		\large
+		
+		\textit{Trabalho de Conclusão de Curso apresentado ao curso de Física Bacharelado da Universidade Federal do Rio Grande como requisito parcial para obtenção do título de bacharel em Física.}\\ [0.3cm] 
 
-\end{flushright}
-\end{center}
-\vfill
-\begin{center}
-\underline{\hspace{7cm}} \\
-%\rule[0.5em]{15em}{0.5pt} \\
-Prof. Dr. Fabricio Ferrari \\
-Intituto de Matemática, Estatística e Física - IMEF \\
-Orientador
-\vfill
-\underline{\hspace{7cm}}  \\
-Profa. Dra. Dinalva A. Sales \\
-Intituto de Matemática, Estatística e Física - IMEF \\
-Banca Examinadora
-\vfill
-\underline{\hspace{7cm}}   \\
-Prof. Dr. Christian Giovanny... \\
-Intituto de Matemática, Estatística e Física - IMEF \\
-Banca Examinadora
-\vfill
-\end{center}
+		\normalsize
+			\begin{flushright}
+				Discente: Gabriel Lauffer Ramos \\
+				Orientador: Prof. Dr. Fabricio Ferrari
+			\end{flushright}
+			
+	\end{center}
+	
+	\vfill
 
-\begin{flushright}
-Rio Grande, \underline{\hspace{1cm}} de  \underline{\hspace{4cm}} de  \underline{\hspace{2cm}}.
-\end{flushright}
+	\begin{center}
+		\underline{\hspace{7cm}} \\
+		Prof. Dr. Fabricio Ferrari \\
+		%Intituto de Matemática, Estatística e Física - IMEF \\
+		Orientador
+	\end{center}
 
-\begin{comment}
-%\vspace{2cm}
+	\vfill
 
-\vfill
-\begin{center}
-\large
-Rio Grande - RS \\
-\today
-\end{center}
-\end{comment}
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\underline{\hspace{6cm}}  \\
+		Profa. Dra. Dinalva A. Sales \\
+		%Intituto de Matemática, Estatística e Física - IMEF \\
+		Banca Examinadora
+	\end{minipage}
+%
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\underline{\hspace{6cm}}   \\
+		Prof. Dr. Cristian G. Bernal \\
+		%Intituto de Matemática, Estatística e Física - IMEF \\
+		Banca Examinadora
+	\end{minipage}
+
+	\vfill
+
+	\begin{flushright}
+		Rio Grande, \underline{\hspace{1cm}} de  \underline{\hspace{4cm}} de  \underline{\hspace{2cm}}.
+	\end{flushright}
+
 \end{titlepage}
+
 \cleardoublepage
 
 %----------------------------------------------------------------------------------------

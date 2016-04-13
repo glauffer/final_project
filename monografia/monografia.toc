@@ -1,24 +1,24 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
-\contentsline {chapter}{Resumo}{v}{Doc-Start}
+\contentsline {chapter}{Resumo}{ii}{Doc-Start}
 \select@language {english}
-\contentsline {chapter}{Abstract}{vii}{Doc-Start}
+\contentsline {chapter}{Abstract}{iii}{Doc-Start}
 \select@language {brazil}
-\contentsline {chapter}{Agradecimentos}{ix}{Doc-Start}
-\contentsline {chapter}{Lista de Figuras}{xiii}{chapter*.2}
-\contentsline {chapter}{Lista de Tabelas}{xv}{chapter*.3}
+\contentsline {chapter}{Agradecimentos}{iv}{Doc-Start}
+\contentsline {chapter}{Lista de Figuras}{vi}{chapter*.2}
+\contentsline {chapter}{Lista de Tabelas}{vii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\IeC {\~a}o}{1}{chapter.4}
 \contentsline {section}{\numberline {1.1}A Musica das Esferas}{2}{section.5}
 \contentsline {chapter}{\numberline {2}Justificativa e Objetivos}{3}{chapter.6}
-\contentsline {chapter}{\numberline {3}Metodologia}{5}{chapter.7}
-\contentsline {section}{\numberline {3.1}Amostragem}{5}{section.8}
-\contentsline {section}{\numberline {3.2}Analise de Fourier}{5}{section.9}
-\contentsline {subsection}{\numberline {3.2.1}Lomb-Scargle}{5}{subsection.10}
-\contentsline {section}{\numberline {3.3}Espa\IeC {\c c}o de fase}{5}{section.11}
-\contentsline {subsection}{\numberline {3.3.1}Entropia de Shannon}{6}{subsection.14}
-\contentsline {section}{\numberline {3.4}Algoritmo}{7}{section.17}
-\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{11}{chapter.20}
-\contentsline {section}{\numberline {4.1}resultado parciais}{11}{section.21}
-\contentsline {subsection}{\numberline {4.1.1}Dados Sint\IeC {\'e}ticos}{12}{subsection.23}
-\contentsline {chapter}{Bibliografia}{17}{appendix*.28}
+\contentsline {chapter}{\numberline {3}Metodologia}{4}{chapter.7}
+\contentsline {section}{\numberline {3.1}Amostragem}{4}{section.8}
+\contentsline {section}{\numberline {3.2}Analise de Fourier}{4}{section.9}
+\contentsline {subsection}{\numberline {3.2.1}Lomb-Scargle}{4}{subsection.10}
+\contentsline {section}{\numberline {3.3}Espa\IeC {\c c}o de fase}{4}{section.11}
+\contentsline {subsection}{\numberline {3.3.1}Entropia de Shannon}{5}{subsection.14}
+\contentsline {section}{\numberline {3.4}Algoritmo}{6}{section.17}
+\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{9}{chapter.20}
+\contentsline {section}{\numberline {4.1}resultado parciais}{9}{section.21}
+\contentsline {subsection}{\numberline {4.1.1}Dados Sint\IeC {\'e}ticos}{10}{subsection.23}
+\contentsline {chapter}{Bibliografia}{14}{appendix*.28}

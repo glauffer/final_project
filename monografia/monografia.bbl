@@ -236,6 +236,74 @@
   \field{year}{1989}
 \endentry
 
+\entry{lyraes}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {{Soszy{\'n}ski}}{S.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Udalski}}{U.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Szyma{\'n}ski}}{S.}%
+     {M.~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kubiak}}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pietrzy{\'n}ski}}{P.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wyrzykowski}}{W.}%
+     {{\L}.}{{\L}.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Szewczyk}}{S.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ulaczyk}}{U.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Poleski}}{P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{RR Lyrae, Stars: oscillations, Stars: Population II, Magellanic Clouds}
+  \strng{namehash}{SI+1}
+  \strng{fullhash}{SIUASMKKMPGWLSOUKPR1}
+  \field{labelyear}{2009}
+  \field{sortinit}{S}
+  \verb{eprint}
+  \verb 0903.2482
+  \endverb
+  \field{pages}{1\bibrangedash 18}
+  \field{title}{{The Optical Gravitational Lensing Experiment. The OGLE-III
+  Catalog of Variable Stars. III. RR Lyrae Stars in the Large Magellanic
+  Cloud}}
+  \field{volume}{59}
+  \field{journaltitle}{Acta Astronomica}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.SR}
+  \field{month}{03}
+  \field{year}{2009}
+\endentry
+
 \lossort
 \endlossort
 
