@@ -4,8 +4,10 @@
 \select@language {english}
 \select@language {brazil}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Exemplo de magnitudes aparentes.\relax }}{4}{table.caption.11}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Filtros, comprimento de onda efetivo e largura da banda.\relax }}{6}{table.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Exemplo de dados\relax }}{6}{table.18}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Exemplo de dados\relax }}{13}{table.55}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Quantidade de dados analisados e resultados corretos\relax }}{9}{table.22}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Quantidade de dados analisados e resultados corretos\relax }}{16}{table.59}

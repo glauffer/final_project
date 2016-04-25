@@ -6,19 +6,34 @@
 \contentsline {chapter}{Abstract}{iii}{Doc-Start}
 \select@language {brazil}
 \contentsline {chapter}{Agradecimentos}{iv}{Doc-Start}
-\contentsline {chapter}{Lista de Figuras}{vi}{chapter*.2}
-\contentsline {chapter}{Lista de Tabelas}{vii}{chapter*.3}
+\contentsline {chapter}{Lista de Figuras}{vii}{chapter*.2}
+\contentsline {chapter}{Lista de Tabelas}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\IeC {\~a}o}{1}{chapter.4}
-\contentsline {section}{\numberline {1.1}A Musica das Esferas}{2}{section.5}
-\contentsline {chapter}{\numberline {2}Justificativa e Objetivos}{3}{chapter.6}
-\contentsline {chapter}{\numberline {3}Metodologia}{4}{chapter.7}
-\contentsline {section}{\numberline {3.1}Amostragem}{4}{section.8}
-\contentsline {section}{\numberline {3.2}Analise de Fourier}{4}{section.9}
-\contentsline {subsection}{\numberline {3.2.1}Lomb-Scargle}{4}{subsection.10}
-\contentsline {section}{\numberline {3.3}Espa\IeC {\c c}o de fase}{4}{section.11}
-\contentsline {subsection}{\numberline {3.3.1}Entropia de Shannon}{5}{subsection.14}
-\contentsline {section}{\numberline {3.4}Algoritmo}{6}{section.17}
-\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{9}{chapter.20}
-\contentsline {section}{\numberline {4.1}resultado parciais}{9}{section.21}
-\contentsline {subsection}{\numberline {4.1.1}Dados Sint\IeC {\'e}ticos}{10}{subsection.23}
-\contentsline {chapter}{Bibliografia}{14}{appendix*.28}
+\contentsline {section}{\numberline {1.1}Conceitos de astrof\IeC {\'\i }sica estelar}{2}{section.5}
+\contentsline {subsection}{\numberline {1.1.1}Fluxo}{2}{subsection.6}
+\contentsline {subsection}{\numberline {1.1.2}Magnitude}{3}{subsection.8}
+\contentsline {subsection}{\numberline {1.1.3}Magnitude absoluta e o m\IeC {\'o}dulo de dist\IeC {\^a}ncia}{4}{subsection.12}
+\contentsline {subsection}{\numberline {1.1.4}Sistemas de magnitudes}{5}{subsection.25}
+\contentsline {subsection}{\numberline {1.1.5}Magnitude bolom\IeC {\'e}trica}{6}{subsection.27}
+\contentsline {subsection}{\numberline {1.1.6}Extin\IeC {\c c}\IeC {\~a}o atmosf\IeC {\'e}rica}{6}{subsection.29}
+\contentsline {subsection}{\numberline {1.1.7}Extin\IeC {\c c}\IeC {\~a}o interestelar}{7}{subsection.31}
+\contentsline {subsection}{\numberline {1.1.8}Diagrama H-R}{8}{subsection.35}
+\contentsline {subsection}{\numberline {1.1.9}Data Juliana}{8}{subsection.36}
+\contentsline {subsection}{\numberline {1.1.10}Fase}{8}{subsection.37}
+\contentsline {subsection}{\numberline {1.1.11}Curva de luz}{8}{subsection.38}
+\contentsline {subsection}{\numberline {1.1.12}Frequ\IeC {\^e}ncia de Nyquist}{8}{subsection.39}
+\contentsline {subsection}{\numberline {1.1.13}Rela\IeC {\c c}\IeC {\~a}o per\IeC {\'\i }odo-luminosidade}{8}{subsection.40}
+\contentsline {subsection}{\numberline {1.1.14}Ascens\IeC {\~a}o reta ($\alpha $)}{8}{subsection.41}
+\contentsline {subsection}{\numberline {1.1.15}Declina\IeC {\c c}\IeC {\~a}o ($\delta $)}{8}{subsection.42}
+\contentsline {chapter}{\numberline {2}Estrelas Vari\IeC {\'a}veis}{9}{chapter.43}
+\contentsline {chapter}{\numberline {3}Metodologia}{11}{chapter.44}
+\contentsline {section}{\numberline {3.1}Amostragem}{11}{section.45}
+\contentsline {section}{\numberline {3.2}Analise de Fourier}{11}{section.46}
+\contentsline {subsection}{\numberline {3.2.1}Lomb-Scargle}{11}{subsection.47}
+\contentsline {section}{\numberline {3.3}Espa\IeC {\c c}o de fase}{11}{section.48}
+\contentsline {subsection}{\numberline {3.3.1}Entropia de Shannon}{12}{subsection.51}
+\contentsline {section}{\numberline {3.4}Algoritmo}{13}{section.54}
+\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{16}{chapter.57}
+\contentsline {section}{\numberline {4.1}resultado parciais}{16}{section.58}
+\contentsline {subsection}{\numberline {4.1.1}Dados Sint\IeC {\'e}ticos}{17}{subsection.60}
+\contentsline {chapter}{Bibliografia}{21}{appendix*.65}

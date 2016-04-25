@@ -16,6 +16,31 @@
   {}
 \endgroup
 
+\entry{Catelan_book}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Catelan}{C.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {H.~A.}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Jonh Wiley \& Sons}%
+  }
+  \strng{namehash}{CMSHA1}
+  \strng{fullhash}{CMSHA1}
+  \field{labelyear}{2015}
+  \field{sortinit}{C}
+  \field{isbn}{9783527655205}
+  \field{title}{Pulsating Stars}
+  \field{year}{2015}
+\endentry
+
 \entry{entropy}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -51,7 +76,101 @@
   \field{year}{1995}
 \endentry
 
-\entry{fer_mello}{article}{}
+\entry{Cincotta1999}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Cincotta}{C.}%
+     {Pablo~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Helmi}{H.}%
+     {Amina}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mendez}{M.}%
+     {Mariano}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nunez}{N.}%
+     {Josue~a.}{J.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vucetich}{V.}%
+     {Hector}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{METHODS: ANALYTICAL,METHODS: DATA ANALYSIS}
+  \strng{namehash}{CPM+1}
+  \strng{fullhash}{CPMHAMMNJaVH1}
+  \field{labelyear}{1999}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  We have recently introduced a new method of searching a time series for
+  periodic variability. The method uses the Shannon entropy to measure the
+  amount of information provided by a set of observations that may contain an
+  underlying periodic signal, as a function of the assumed period of this
+  hypothetical periodic signal. Here we present the analytical arguments that
+  support this algorithm within the broader frame of information theory. We
+  also show that, in the absence of a periodic signal, the entropies follow a
+  Gaussian distribution, which then provides an easy way of assessing the
+  significance of a positive detection. We test this method using simulated
+  data with non-sinusoidal variability, and we show that it is more sensitive
+  than the classical periodograms or those variations adapted to deal with
+  cases where harmonics are involved. Finally, we show that this method is
+  capable of resolving two, almost identical, frequencies present in a given
+  time series, even in cases where the classical periodograms fail to do so.%
+  }
+  \verb{doi}
+  \verb 10.1046/j.1365-8711.1999.02128.x
+  \endverb
+  \field{issn}{0035-8711}
+  \field{number}{3}
+  \field{pages}{582\bibrangedash 586}
+  \field{title}{{Astronomical time-series analysis -- II. A search for
+  periodicity using the Shannon entropy}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1999MNRAS.302..582C
+  \endverb
+  \field{volume}{302}
+  \verb{file}
+  \verb :home/glauffer/Dropbox/Papers/shannon entropy Cincotta.pdf:pdf
+  \endverb
+  \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+  \field{year}{1999}
+\endentry
+
+\entry{Cousins1973}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cousins}{C.}%
+     {A.~W.~J.}{A.~W.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{filter,photometry}
+  \strng{namehash}{CAWJ1}
+  \strng{fullhash}{CAWJ1}
+  \field{labelyear}{1973}
+  \field{sortinit}{C}
+  \field{title}{{Revised zero points and UBV photometry of stars in the Harvard
+  E and F regions.}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1973MmRAS..77..223C
+  \endverb
+  \field{volume}{77}
+  \verb{file}
+  \verb :home/glauffer/Desktop/1973MmRAS..77..223C.pdf:pdf
+  \endverb
+  \field{journaltitle}{Mem. R. Astron. Soc.}
+  \field{year}{1973}
+\endentry
+
+\entry{mello81}{article}{}
   \name{author}{1}{}{%
     {{}%
      {{Ferraz-Mello}}{F.}%
@@ -186,6 +305,181 @@
   \field{year}{2013}
 \endentry
 
+\entry{Johnson1966}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Johnson}{J.}%
+     {Harold~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{filter,photometry}
+  \strng{namehash}{JHL1}
+  \strng{fullhash}{JHL1}
+  \field{labelyear}{1966}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  During recent years there has been more and more emphasis upon astronomical
+  measurements in the infrared. To a great extent, this increased emphasis has
+  been stimulated by recent detector developments, which have produced
+  detectors capable of making the difﬁcult long-wavelength observations. Baum
+  (1) has reviewed the characteristics of photosensitive devices, including
+  infrared detectors. He discussed the spectral responses and sensi- tivities
+  of most of the available detectors and, rather than dissert upon this subject
+  here, we refer the reader to Baum's article. For the purposes of this
+  discussion, we will divide the infrared spectrum as follows: (a) The Near
+  Infrared, from the visible region to approximately 1 u. This region
+  corresponds to the wavelength sensitivity range of photomulti- pliers having
+  S-1 cathodes. (b) The Intermediate Infrared, covering the range of
+  wavelengths from 1 p. to 4 pi, approximately. This region corresponds to the
+  wavelength range for optimum sensitivity of lead sulﬁde photoconductive
+  cells, cooled by liquid nitrogen. (0) The Far Infrared, covering the range of
+  wavelengths from 4 it to 22 p, approximately. There are several newly
+  developed detectors that are sensitive in this spectral region, but the most
+  sensitive is the liquid helium-cooled germanium bolometer developed by F. J.
+  Low (2). Wavelengths longer than approximately 22 pi will not, for the
+  purposes of the present discussion, be considered as belonging to the
+  infrared, although Low (3) has used his germanium bolometer to make
+  astronomical measurements at 1 mm.%
+  }
+  \verb{doi}
+  \verb 10.1146/annurev.aa.04.090166.001205
+  \endverb
+  \field{issn}{0066-4146}
+  \field{number}{1}
+  \field{pages}{193\bibrangedash 206}
+  \field{title}{{Astronomical Measurements in the Infrared}}
+  \verb{url}
+  \verb http://www.annualreviews.org/doi/abs/10.1146/annurev.aa.04.090166.00120
+  \verb 5
+  \endverb
+  \field{volume}{4}
+  \verb{file}
+  \verb :home/glauffer/Desktop/1966ARA+A...4..193J.pdf:pdf
+  \endverb
+  \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+  \field{year}{1966}
+\endentry
+
+\entry{Johnson1953}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Johnson}{J.}%
+     {Harold~L.}{H.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {W.~W.}{W.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{UBV,filter,photometry}
+  \strng{namehash}{JHLMWW1}
+  \strng{fullhash}{JHLMWW1}
+  \field{labelyear}{1953}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  A system of photoelectric photometry is outlined which utilines the revised
+  zero point of the visual magnitude scale of the North Polar Sequence and
+  which returus to the original definition for the zero point of color indices
+  in terms of main-sequence stars of class A0; the interval A0-gK0 is 1 mag.
+  The revised Yerkes Atlas system (MK) of spectral classification is taken as
+  standard. The latter is described briefly, and a list of standard stars is
+  included. Magnitudes and color indices from measures in three wave4ength
+  bands are given for stars selected by spectral type and luminosity class to
+  be representative of the principal regions of the H-R diagram. A few white
+  dwarfs are also included. A standard main sequence is defined for the new
+  color-absolute magnitude diagram by the use of stars of large parallax,
+  together with the galactic clusters NGC 2362, the Pleiades, the Ursa Major
+  nucleus, and Praesepe. A standard mnin sequence is also defined for the
+  relationship between the two systems of color index. A purely photometric
+  method for determining spectral types and space reddening for B stars in
+  galactic clusters is described.%
+  }
+  \verb{doi}
+  \verb 10.1086/145697
+  \endverb
+  \field{issn}{0004-637X}
+  \field{pages}{313}
+  \field{title}{{Fundamental stellar photometry for standards of spectral type
+  on the revised system of the Yerkes spectral atlas}}
+  \verb{url}
+  \verb http://labs.adsabs.harvard.edu/adsabs/abs/1953ApJ...117..313J
+  \endverb
+  \field{volume}{117}
+  \verb{file}
+  \verb :home/glauffer/Desktop/1953ApJ...117..313J.pdf:pdf
+  \endverb
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1953}
+\endentry
+
+\entry{karttunenLivro}{book}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Karttunen}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kröger}{K.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oja}{O.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Poutanen}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Donner}{D.}%
+     {K.J.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{KH+1}
+  \strng{fullhash}{KHKPOHPMDK1}
+  \field{labelyear}{2007}
+  \field{sortinit}{K}
+  \field{edition}{5}
+  \field{isbn}{3540001794,978-3-540-00179-9}
+  \field{title}{Fundamental Astronomy}
+  \field{year}{2007}
+\endentry
+
+\entry{keplerLivro2013}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kepler}{K.}%
+     {S.O.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saraiva}{S.}%
+     {M.~F.}{M.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Livraria da Física}%
+  }
+  \strng{namehash}{KSSMF1}
+  \strng{fullhash}{KSSMF1}
+  \field{labelyear}{2013}
+  \field{sortinit}{K}
+  \field{title}{Astronomia \& Astrofísica}
+  \field{year}{2013}
+\endentry
+
 \entry{lomb}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -210,6 +504,59 @@
   \field{journaltitle}{Astrophysics and Space Science}
   \field{month}{02}
   \field{year}{1976}
+\endentry
+
+\entry{Pejcha2009}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pejcha}{P.}%
+     {Ondřej}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanek}{S.}%
+     {K.~Z.}{K.~Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{POSKZ1}
+  \strng{fullhash}{POSKZ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  We use the recently released OGLE-III catalog of 17,692 fundamental mode RR
+  Lyr (RRab) stars in the Large Magellanic Cloud (LMC) to investigate the
+  structure of its stellar halo. We apply conservative cuts in period,
+  amplitude, and magnitude to remove blends and other contamination. We use
+  period-luminosity and period-color relations to determine distance and
+  extinction of every star in our final sample of 9393 stars. In order to
+  determine the scatter of our method, we compare the distributions of
+  distances in two regions at the edges of the covered area with a central
+  region. We determine the intrinsic line-of-sight dispersion in the center to
+  be 0.135 mag or 3.21 kpc (FWHM of 0.318 mag or 7.56 kpc), assuming zero depth
+  in one of the edge regions. The conservative cuts we apply reduce the derived
+  depth significantly. Furthermore, we find that the distribution of RRab stars
+  is deformed in the sense that stars on the eastern side are closer than on
+  the western side. We model the RRab distribution as a triaxial ellipsoid and
+  determine its axes ratios to be 1:2.00:3.50 with the longest axis inclined by
+  6° from the line of sight. Another result of our analysis is an extinction
+  map of the LMC and a map of internal reddening, which we make publicly
+  available.%
+  }
+  \verb{doi}
+  \verb 10.1088/0004-637X/704/2/1730
+  \endverb
+  \field{issn}{0004-637X}
+  \field{number}{2}
+  \field{pages}{1730\bibrangedash 1734}
+  \field{title}{{THE STRUCTURE OF THE LARGE MAGELLANIC CLOUD STELLAR HALO
+  DERIVED USING OGLE-III RR Lyr STARS}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/2009ApJ...704.1730P
+  \endverb
+  \field{volume}{704}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{2009}
 \endentry
 
 \entry{aov}{article}{}

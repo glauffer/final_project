@@ -7,25 +7,192 @@
 %Fourier transform, and its variations introduced to deal with
 %unevenly sampled data. The second one is based on the analysis of the dispersion of the light curve, observed data folded over a trial period as a function of phase, for a set of trial periods.
 
-Na astronomia, especialmente no campo das estrelas variáveis, geralmente é necessário analisar dados com períodos desconhecidos. Existem métodos desenvolvidos para lidar com dados que possuem intervalos espaciais uniformes, porem, as observa\c{c}ões geralmente são limitadas para o período da noite e possuem limita\c{c}ões devido ao clima e disponibilidade do telescópio, o que faz com que os dados sejam espa\c{c}ados por uma ordem de horas, dias ou até mesmo meses \citep{fer_mello}. Assim, os dados obtidos raramente são igualmente espaçados.
+Na astronomia, especialmente no campo das estrelas variáveis, geralmente é necessário analisar dados com períodos desconhecidos. Existem métodos desenvolvidos para lidar com dados que possuem intervalos espaciais uniformes, porém, as observações geralmente são limitadas para o período da noite e possuem limitações devido ao clima e disponibilidade do telescópio, o que faz com que os dados sejam espaçados por uma ordem de horas, dias ou até mesmo meses \citep{mello81}. 
+%Assim, os dados obtidos raramente são igualmente espaçados.
+Assim, os dados obtidos raramente possuem um espaçamento constante entre os pontos de observação e lidar com este tipo de série temporal não é um trabalho fácil \citep{lomb}.
+
+%Ao trabalhar com estrelas variáveis, que são estrelas em que o seu brilho aparente varia em função do tempo, podemos obter o período de variação da magnitude  através da curva de luz da estrela, ou seja, a partir dos dados observacionais obtidos pelos telescópios. A obtenção deste período de oscilação da luz de uma estrela variável é fundamental para descrever a estrela, pois podemos relacionar este periodo com luminosidade (\textcolor{red}{(citar a henrietta)}, densidade (\textcolor{red}{(citar a relação periodo-densidade)}, cor (\textcolor{red}{(citar a relacão com a cor)}, etc... (\textcolor{red}{(ver o que mais podemos calcular, talvez metalicidade...)}% Através do seu período podemos estimar os valores de luminosidade, massa, distância, densidade, etc.
+
+Estrelas variáveis são objetos em que seu brilho aparente oscila em função do tempo. A partir desta variação do brilho, podemos obter o período de variação na magnitude da estrela analisando a sua curva de luz, ou seja, analisando os dados observacionais obtidos pelo telescópio. A obtenção deste período de oscilação da luz de uma estrela variável é fundamental para descrever a estrela, pois podemos relacionar este periodo com luminosidade (\textcolor{red}{(citar a henrietta)}), densidade (\textcolor{red}{(citar a relação periodo-densidade)}), cor (\textcolor{red}{(citar a relacão com a cor)}), etc... (\textcolor{red}{(ver o que mais podemos calcular, talvez metalicidade...)}).
 
 
-A obtenção do período de pulsação de uma estrela variável é fundamental para descrever a estrela. Através do seu período podemos estimar os valores de luminosidade, massa, distância, densidade, etc.
 
-
-Existem diversos algoritmos para a determina\c{c}ão de períodos em dados astronômicos. Cada um possui um método diferente ou alguma pequena modifica\c{c}ão em rela\c{c}ão aos demais. Mesmo com uma grande quantidade de métodos, nenhum deles parece se sobressair de uma forma geral \citep{comparison}. Alguns métodos são melhores para lidar com dados que sejam igualmente espaçados, enquanto que outros métodos lidam melhor com períodos senoidais, etc.
-
-
-
-
-Os modelos mais utilizados para determina\c{c}ão de períodos em séries temporais astronômicas fazem um ajuste de curva utilizando o método do mínimos quadrados \citep{lomb} ou utilizam análise de Fourier \citep{fer_mello}. Outros métodos tentam minimizar alguma grandeza na dispersão da série temporal no espa\c{c}o de fase, como é o caso da análise de variância \citep{aov} e da entropia \citep{entropy}.
+Existem diversos algoritmos para a determinação de períodos em dados astronômicos. Cada um possui um método diferente ou alguma pequena modificação em relação aos demais. Mesmo com uma grande quantidade de métodos, nenhum deles parece se sobressair de uma forma geral \citep{comparison}. Alguns métodos são melhores para lidar com dados que sejam igualmente espaçados, enquanto que outros são adaptados para lidar com espaçamento variável. Os algoritmos mais utilizados para determinação de períodos em séries temporais astronômicas fazem um ajuste de curva utilizando o método do mínimos quadrados \citep{lomb} ou utilizam análise de Fourier \citep{mello81}. Outros métodos tentam minimizar alguma grandeza na dispersão da série temporal no espa\c{c}o de fase, como é o caso da análise de variância \citep{aov} e da entropia \citep{entropy}.
 
 %Como dito anteriormente, cada método possui certas vantagens e disvantagens. Por exemplo, a analise de Fourier é eficiente e rápida, porém não é muito sensitiva para para fun\c{c}ões não senoidais
 
 %Each method has certain advantages and disadvantages. For example, while Fourier analysis is faster and extremely efficient, it is much less sensitive to non-sinusoidal functions than the phase-diagram analysis. Also, phase-diagram methods are less affected by randomly occurring gaps in the data, provided that the coverage of the light curve is reasonably uniform in phase space.
 
-A ideia deste projeto é testar um método para determinar multiplos períodos de pulsa\c{c}ão de estrelas variáveis, tendo em vista que nenhum destes métodos são aplicados diretamente para esta fun\c{c}ão. Este método, chamado de Entropia Condicional, busca a minimiza\c{c}ão da entropia de Shannon condicional na dispersão da série temporal no espa\c{c}o de fase.
+O objetivo deste trabalho é testar um algoritmo que seja confiável para trabalhar com séries temporais astronômicas e que não seja dependente do espaçamento entre os dados observacionais. Este algoritmo trabalha com a entropia de Shannon condicional \citep{ce, Cincotta1999}, um método que utiliza a dispersão no espaço de fase para obter o período da série temporal através da minimização da entropia.
+
+%A ideia deste projeto é testar um método para determinar multiplos períodos de pulsa\c{c}ão de estrelas variáveis, tendo em vista que nenhum destes métodos são aplicados diretamente para esta fun\c{c}ão. Este método, chamado de Entropia Condicional, busca a minimiza\c{c}ão da entropia de Shannon condicional na dispersão da série temporal no espa\c{c}o de fase.
 %In this paper, we present a phase-diagram analyses method called Conditional Entropy method. The idea is develop a fast and reliable method to work with variable stars.
 
+Neste capítulo de introdução será feita uma revisão de alguns tópicos de astrofísica estelar importantes para a compreensão do trabalho. No capítulo \ref{cap:estrelas} será abordado o tópico sobre estrelas variáveis, explicando a sua história, classificação e importância. Uma breve explicação das principais técnicas, dando ênfase para a entropia de Shannon, será vista no capítulo \ref{cap:tecnicas}. Finalmente, os resultados obtidos e uma discussão será abordada no capítulo \ref{cap:resultados}.
 
-\section{A Musica das Esferas}
+\section{Conceitos de astrofísica estelar}
+
+%\nocite{keplerLivro2013}
+\nocite{karttunenLivro}
+
+\subsection{Fluxo}
+
+O Fluxo ($F$) é a medida de energia por unidade de área e por unidade de tempo, ou seja, é a potência emitida através de uma superfície. O fluxo a uma distância $r$ de uma estrela é obtido pela expressão,
+\begin{align}
+F(r) = \frac{L}{4\pi r^2} \quad \left[ \si{W.m^{-2}}\right] \,\, \text{ou} \,\, \left[\si{erg.cm^{-2}.s^{-1}}\right] \label{eq:fluxo}
+\end{align}
+em que $L$ é a luminosidade da estrela ou a energia total emitida por unidade de tempo em todas as direções. Pela expressão do fluxo, podemos perceber que esta quantidade diminui com o quadrado da distância.
+
+\subsection{Magnitude}
+
+O sistema de magnitude foi criado pelo Grego Hiparco (160-125 a.C.) há mais de 2000 anos atrás. Ele dividiu as estrelas visíveis a olho nu de acordo com o seu brilho aparente, classificando as estrelas mais brilhantes como magnitude 1 ($m=1$) e as mais fracas como magnitude 6 ($m=6$). Como a percepção de brilho do olho humano é logarítmica, o fluxo de uma estrela com 
+$m=1$ é 100 vezes mais brilhante que uma estrela com $m=6$. Por definição, a magnitude aparente ($m$) ou brilho aparente, é a medida do brilho de um objeto observado na Terra, é dado por,
+\begin{align}
+m = - 2,5 \log \frac{F}{F_0}
+\end{align}
+em que $F_0$ é fluxo para magnitude $m=0$. Para duas estrelas com magnitudes $m_1$ e $m_2$, e fluxos $F_1$ e $F_2$, a sua diferença é expressa pela relação,
+\begin{align}
+m_2 - m_1 = -2,5 \log \frac{F_2}{F_1}.
+\end{align}
+A tabela \ref{tab:magnitudes} possui uma comparação entre as magnitudes aparentes de alguns objetos celestes.
+
+\begin{table}[h!]
+\begin{center}
+\captionof{table}{Exemplo de magnitudes aparentes.}
+\begin{tabular}{c|c} 
+\hline 
+Objeto & Magnitude \\ 
+\hline 
+Vega & 0 \\ 
+Sírius & -1,46 \\
+Marte & -2,0 \\
+Júpiter & -2,7 \\ 
+Lua Cheia & -12,8 \\
+Sol & -26,74 \\
+\hline 
+\end{tabular} \\
+\small
+\vspace{2mm}Fonte: Extraído de \cite{keplerLivro2013}.
+\label{tab:magnitudes}
+\end{center}
+\end{table}
+
+\subsection{Magnitude absoluta e o módulo de distância}
+
+A magnitude aparente é uma medida de brilho que depende da distância e por isso não representa exatamente o brilho real de uma estrela. Para podermos compara o brilho de duas estrelas, precisamos de uma medida que seja independente da distância. Assim, a magnitude absoluta ($M$) representa o brilho da estrela a uma distancia de 10 parsecs da Terra.
+\begin{align}
+M = -2,5 \log \frac{F(10\si{pc})}{F_0}
+\end{align}
+A diferença entre a magnitude aparente e absoluta é dada por,
+\begin{align}
+m - M &= - 2,5 \log \frac{F}{F_0} + 2,5 \log \frac{F(10\si{pc})}{F_0} \\
+&= -2,5 \left[ \log \frac{F}{F_0} - \log \frac{F(10\si{pc})}{F_0} \right] \\
+&= -2,5 \log \left[ \frac{F}{F_0} \frac{F_0}{F(10\si{pc})} \right] \\
+&= -2,5 \log \frac{F}{F(10\si{pc})} \label{eq:mag_abs_incompleto}
+\end{align}
+mas, de acordo com a expressão \eqref{eq:fluxo} para o fluxo,
+\begin{align}
+\frac{F}{F(10\si{pc})} = \frac{L}{4\pi r^2} \frac{4\pi \left(10 \si{pc}\right)^2}{L} = \frac{100 \si{pc}^2}{r^2}
+\end{align}
+em que $r$ é a distância da estrela. Substituindo este resultado na equação \eqref{eq:mag_abs_incompleto},
+\begin{align}
+m - M &= -2,5 \log \frac{100 \si{pc}^2}{r^2} \\
+&= -2,5 \log 100 \si{pc}^2 + 2,5 \log r^2 \\
+&= 5 \log r - 5
+\end{align}
+e definindo o módulo de distância $\mu$ como,
+\begin{align}
+\mu = m - M
+\end{align}
+obtemos a expressão,
+\begin{align}
+\mu = m - M = 5 \log r - 5 \label{eq:modulo_distancia}
+\end{align}
+lembrando que a distância $r$ deve ser medida em parsecs. Evidenciando $r$, obtemos uma expressão para calcular a distância,
+\begin{align}
+r = 10^{0,2\left( m - M + 5 \right)} \quad \text{ou} \quad  r = 10^{0,2\left( \mu + 5 \right)} \quad \left[ \si{pc} \right].
+\end{align}
+
+\subsection{Sistemas de magnitudes}
+
+A magnitude aparente $m$ que observamos nos telescópios depende do detector utilizado, do filtro aplicado e das configurações do telescópio. Geralmente a sensibilidade de um detector não é a mesma para diferentes comprimentos de onda. Assim, o fluxo medido pelo equipamento é uma parcela do fluxo total da estrela. Portanto, sistemas de magnitudes foram desenvolvidos. Estes sistemas são conjuntos de filtros que permitem o equipamento coletar apenas uma determinada faixa de comprimento de onda. Um dos sistemas mais utilizados é o conjunto UBV (ultravioleta, azul e visível) desenvolvido por \citet{Johnson1953}. Alguns anos mais tarde, \citet{Cousins1973} adaptou o trabalho de Johnson para o hemisfério sul. Outro conjunto comumente utilizado é o sistema UBVRIJKL \citep{Johnson1966}. A tabela \ref{tab:filtros} mostra o comprimento de onda efetivo $\lambda_{eff}$ e a largura de banda $\Delta \lambda$ de alguns filtros utilizados na detecção de fluxo.
+
+\begin{table}[h!]
+\begin{center}
+\captionof{table}{Filtros, comprimento de onda efetivo e largura da banda.}
+\begin{tabular}{c|c|c} 
+\hline 
+Cor & $\lambda_{eff}$ ($\si{\nano\metre}$) & $\Delta \lambda$ ($\si{\nano\metre}$) \\ 
+\hline 
+U & 366 & 65 \\ 
+B & 436 & 89\\
+V & 545 & 84 \\
+R & 641 & 158\\ 
+I & 798 & 154 \\
+%J & 1,2 \si{\micro\metre} \\
+%H & 1,6 \si{\micro\metre}\\
+%K & 2,1 \si{\micro\metre}\\
+\hline 
+\end{tabular} \\
+\small
+\vspace{2mm}Fonte: Extraído de \cite{Catelan_book}.
+\label{tab:filtros}
+\end{center}
+\end{table}
+
+
+\subsection{Magnitude bolométrica}
+
+Em um caso ideal, seria possível medir todo o espectro magnético em um único aparelho. Essa medida seria a \textit{magnitude bolométrica}. Infelizmente, é difícil realizar esta medida pois a nossa atmosfera absorve parte da radiação e também precisamos de diferentes detectores para determinadas frequências.
+
+A magnitude bolométrica ($m_{\si{bol}}$) pode ser obtida pela magnitude visual ($m_V$),
+\begin{align}
+m_{\si{bol}} = m_V - BC
+\end{align}
+em que $BC$ é a correção bolométrica. Por definição, esta correção possui valor zero para estrelas parecidas com o nosso Sol e possui valores maiores para estrelas mais quentes ou mais frias do que o Sol.
+
+\subsection{Extinção atmosférica}
+
+A nossa atmosfera não é inteiramente transparente. Embora ela permita a passagem de luz visível, ela absorve radiação ultravioleta e várias bandas do infravermelho. Também, existem diversas moléculas que desviam a luz em todas as direções e absorvem parte da radiação reemitindo em praticamente todos os comprimentos de onda. Toda essa perda em radiação devida aos constituintes da atmosfera e chamada de \textit{extinção atmosférica}. Quanto maior a quantidade de ar atravessada pela luz, maior a extinção. Este é um dos motivos que os telescópios terrestres são localizados em lugares altos como montanhas.
+
+Para corrigir este efeito, a magnitude observada, em um determinado comprimento de onda pode, ser escrita como,
+\begin{align}
+m_{\lambda} = m_{\lambda_0} + K_{\lambda} \cdot X
+\end{align}
+em que $m_{\lambda_0}$ é a magnitude em um determinado comprimento de onda no alto da atmosfera, $K_{\lambda}$ é o coeficiente de extinção e $X$ é a massa de ar, que depende do ângulo de observação.
+
+\subsection{Extinção interestelar}
+
+Devido a presença de poeira no meio interestelar, parte da radiação emitida por alguma fonte é absorvida, desviada e geralmente reemitida em outro comprimento de onda. Toda a perda de radiação devido ao meio interestelar é chamado de \textit{extinção interestelar}. Este desvio que ocorre na radiação causa um desvio para o vermelho no espectro de frequência da luz. Por causa disto, devemos fazer uma correção na formula \eqref{eq:modulo_distancia} da magnitude aparente observada.
+
+Sendo a extinção interestelar representada pela letra $A_{\lambda}$ com um subscrito indicando a banda espectral. A correção na magnitude absoluta para um determinado comprimento de onda a uma distância $r$ será,
+\begin{align}
+m_{\lambda} - M_{\lambda} - A_{\lambda} = 5 \log r - 5 \\
+M_{\lambda} = m_{\lambda} - A_{\lambda} - 5 \log r + 5.
+\end{align} 
+e da mesma forma, a correção para o calculo da distância será,
+\begin{align}
+r = 10^{0.2 \left(m -M + 5 - A_{\lambda} \right)}.
+\end{align}
+
+%\subsection{Índice de Cor}
+
+\subsection{Diagrama H-R}
+ 
+\subsection{Data Juliana}
+
+livro do catelan, capitulo 2
+
+\subsection{Fase}
+
+\subsection{Curva de luz}
+
+livro do catelan, capitulo 2
+
+\subsection{Frequência de Nyquist}
+
+\subsection{Relação período-luminosidade}
+
+\subsection{Ascensão reta ($\alpha$)}
+
+\subsection{Declinação ($\delta$)}

@@ -1,0 +1,40 @@
+Data
+|
+|-identification_RRAB_ogle.dat: Possui os seguintes dados sobre 
+|								a RRLyraes AB do OGLEIII.
+|	StarID	OgleIIIField	OgleIIIDatabaseNumber	RA-horas	RA-minutos	RA-segundos	DE-sign		DE-degree	DE-arc-minute	DE-arc-second	...
+|
+|	em que  RA = right ascension com equinox J2000.0
+|			DE = declination com equinox em J2000.0
+|
+|
+|-identification_onlyRRAB.dat: Possui os mesmos dados do que o arquivo acima, porem apenas para as RRAB
+|
+|
+|-identification_onlyRRAB.ods: Mesmas informaçoes do que o arquivo identification_onlyRRAB.dat porem em formato .ods
+|
+|
+|-RRab_ogleDATA.dat: Possui os seguintes dados sobre as RRLyraes AB do OGLE III
+|	StarID	meanI	meanV	period	uncertaintyOfPeriod	...
+|
+|
+|-OGLEIII.ods: compilado dos resultados para CEP FU, CEP FO, RRAB e RRC obidos enquanto estava nos EUA.
+|
+|
+|-ID_mag_period_RA_DE.dat: possui os dados sobre as RRAB do OGLE-III
+|	StarID 	Imédio	Vmédio	PeriodoOGLE		RA 		DE 		PeriodoCE
+|
+|	em que 	Imédio = mean da magnitude aparente na banda I
+|			Vmédio = mean da magnitude aparente na  banda V
+|			PeriodoOGLE = periodo do catalogo obtido pelo link ftp
+|
+|
+|-only_names_RRAB.dat: arquivo apenas com os nomes das estrelas RRAB. Utilizado para filtrar as photometrias das RRAB do conjunto com todos os arquivos 
+|
+|-extinction_map: pasta com mapa de extinção de (Pejcha, 2009) (http://adsabs.harvard.edu/abs/2009ApJ...704.1730P) e disponíveis em http://www.astro.princeton.edu/~pejcha/lmc_extmap/
+	|
+	|-lmcextmap.dat: dados do mapa de extinção. As colunas são:	 MinX,	MaxX,	MinY,	MaxY, E(V-I),	E_rms,	Delta E(V-I),	numero de estrelas
+	|
+	|-lmcextmap.pro: rotina em idl para obter os dados da tabela do arquivo acima.
+	|
+	|-extmap.sav: arquivo da rotina em idl (arquivo.pro)
