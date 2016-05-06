@@ -16,6 +16,29 @@
   {}
 \endgroup
 
+\entry{Bailey1902}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bailey}{B.}%
+     {Solon~Irving}{S.~I.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{STARS: CLUSTERS,VARIABLE STARS,history,observation,variable}
+  \strng{namehash}{BSI1}
+  \strng{fullhash}{BSI1}
+  \field{labelyear}{1902}
+  \field{sortinit}{B}
+  \field{title}{{A discussion of variable stars in the cluster $\omega$
+  Centauri}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1902AnHar..38....1B
+  \endverb
+  \field{journaltitle}{Annals of the Astronomical Observatory of Harvard
+  College ; v. 38}
+  \field{year}{1902}
+\endentry
+
 \entry{Catelan_book}{book}{}
   \name{author}{2}{}{%
     {{}%
@@ -305,6 +328,29 @@
   \field{year}{2013}
 \endentry
 
+\entry{Hertzsprung1913}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hertzsprung}{H.}%
+     {Ejnar}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{RRLyr,distancia,leavitt}
+  \strng{namehash}{HE1}
+  \strng{fullhash}{HE1}
+  \field{labelyear}{1913}
+  \field{sortinit}{H}
+  \field{title}{{{\"{U}}ber die r{\"{a}}umliche Verteilung der
+  Ver{\"{a}}nderlichen vom $\delta$ Cephei-Typus}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1913AN....196..201H
+  \endverb
+  \field{volume}{196}
+  \field{journaltitle}{Astronomische Nachrichten}
+  \field{year}{1913}
+\endentry
+
 \entry{Johnson1966}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -480,6 +526,61 @@
   \field{year}{2013}
 \endentry
 
+\entry{Kraft1960}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kraft}{K.}%
+     {Robert~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{CEP,Cep,color,period}
+  \strng{namehash}{KRP1}
+  \strng{fullhash}{KRP1}
+  \field{labelyear}{1960}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1086/146938
+  \endverb
+  \field{issn}{0004-637X}
+  \field{pages}{404}
+  \field{title}{{Color Excesses for Supergiants and Classical Cepheids. II .
+  The Period-Color Relation for Classical Cepheids.}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1960ApJ...132..404K
+  \endverb
+  \field{volume}{132}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{year}{1960}
+\endentry
+
+\entry{Leavitt1912}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Leavitt}{L.}%
+     {Henrietta~S.}{H.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pickering}{P.}%
+     {Edward~C.}{E.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{CEP,SMC,cep,leavitt}
+  \strng{namehash}{LHSPEC1}
+  \strng{fullhash}{LHSPEC1}
+  \field{labelyear}{1912}
+  \field{sortinit}{L}
+  \field{title}{{Periods of 25 Variable Stars in the Small Magellanic Cloud.}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1912HarCi.173....1L
+  \endverb
+  \field{volume}{173}
+  \field{journaltitle}{Harvard College Observatory Circular}
+  \field{year}{1912}
+\endentry
+
 \entry{lomb}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -504,6 +605,57 @@
   \field{journaltitle}{Astrophysics and Space Science}
   \field{month}{02}
   \field{year}{1976}
+\endentry
+
+\entry{Miles2007}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Miles}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{history,observation}
+  \strng{namehash}{MR1}
+  \strng{fullhash}{MR1}
+  \field{labelyear}{2007}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  The 2006 BAA Presidential Address, delivered on 2006 October 25 at New Hunts
+  House, Guys Hospital, London Bridge, London SE1%
+  }
+  \field{title}{{A light history of photometry: from Hipparchus to the Hubble
+  Space Telescope}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/2007JBAA..117..172M
+  \endverb
+  \verb{file}
+  \verb :home/glauffer/Desktop/2007JBAA..117..172M.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of the British Astronomical Association}
+  \field{year}{2007}
+\endentry
+
+\entry{Payne1930}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Payne}{P.}%
+     {Cecilia~H.}{C.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{CEP,Cep,densidty,period}
+  \strng{namehash}{PCH1}
+  \strng{fullhash}{PCH1}
+  \field{labelyear}{1930}
+  \field{sortinit}{P}
+  \field{title}{{On the Relation of Period to Mean Density for Cepheid
+  Variables}}
+  \verb{url}
+  \verb http://adsabs.harvard.edu/abs/1930BHarO.876...28P
+  \endverb
+  \field{journaltitle}{Harvard College Observatory Bulletin No. 876}
+  \field{year}{1930}
 \endentry
 
 \entry{Pejcha2009}{article}{}
@@ -649,6 +801,63 @@
   \field{eprintclass}{astro-ph.SR}
   \field{month}{03}
   \field{year}{2009}
+\endentry
+
+\entry{Udalski2008}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Udalski}{U.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szymanski}{S.}%
+     {M.~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soszynski}{S.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Poleski}{P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{ogle}
+  \strng{namehash}{UA+1}
+  \strng{fullhash}{UASMKSIPR1}
+  \field{labelyear}{2008}
+  \field{sortinit}{U}
+  \field{abstract}{%
+  We describe methods applied to the final photometric reductions and
+  calibrations to the standard system of the images collected during the third
+  phase of the Optical Gravitational Lensing Experiment survey - OGLE-III.
+  Astrometric reduction methods are also presented. The OGLE-III data
+  constitute a unique data set covering the Magellanic Clouds, Galactic bulge
+  and Galactic disk fields monitored regularly every clear night since 2001 and
+  being significant extension and continuation of the earlier OGLE
+  observations. With the earlier OGLE-II and OGLE-I photometry some of the
+  observed fields have now 16-year long photometric coverage.%
+  }
+  \verb{eprint}
+  \verb 0807.3884
+  \endverb
+  \field{pages}{13}
+  \field{title}{{The Optical Gravitational Lensing Experiment. Final Reductions
+  of the OGLE-III Data}}
+  \verb{url}
+  \verb http://arxiv.org/abs/0807.3884
+  \endverb
+  \verb{file}
+  \verb :home/glauffer/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloa
+  \verb ded/Udalski et al. - 2008 - The Optical Gravitational Lensing Experimen
+  \verb t. Final Reductions of the OGLE-III Data.pdf:pdf
+  \endverb
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
 \endentry
 
 \lossort

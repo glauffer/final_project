@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.6)  24 APR 2016 22:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.6)  5 MAY 2016 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,22 +1304,22 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 ))
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1474,15 +1474,15 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating brazil \equationnamenname on input line 90.
-Package scrbase Info: activating brazil \sectionname on input line 90.
-Package scrbase Info: activating brazil \byname on input line 90.
-Package scrbase Info: activating brazil \@title on input line 90.
-Package scrbase Info: activating brazil \abbrevname on input line 90.
-Package scrbase Info: activating brazil \constantsname on input line 90.
-Package scrbase Info: activating brazil \acknowledgementname on input line 90.
+Package scrbase Info: activating brazil \equationnamenname on input line 91.
+Package scrbase Info: activating brazil \sectionname on input line 91.
+Package scrbase Info: activating brazil \byname on input line 91.
+Package scrbase Info: activating brazil \@title on input line 91.
+Package scrbase Info: activating brazil \abbrevname on input line 91.
+Package scrbase Info: activating brazil \constantsname on input line 91.
+Package scrbase Info: activating brazil \acknowledgementname on input line 91.
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 91.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1491,9 +1491,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count381
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./monografia.out) (./monografia.out)
 \@outlinefile=\write4
@@ -1512,28 +1512,28 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'monografia.bbl' found.
 (./monografia.bbl)
-Package biblatex Info: Reference section=0 on input line 90.
-Package biblatex Info: Reference segment=0 on input line 90.
+Package biblatex Info: Reference section=0 on input line 91.
+Package biblatex Info: Reference segment=0 on input line 91.
 \c__siunitx_mathsf_int=\count382
 \c__siunitx_mathtt_int=\count383
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
  [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (20.2353pt too wide) in paragraph at lines 186--201
+Overfull \hbox (20.2353pt too wide) in paragraph at lines 187--202
 []$[]$ $[]$ 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 209.
 [1
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 259.
  [1
 
 ]
@@ -1541,7 +1541,7 @@ Package babel Info: Redefining portuges shorthand "|
  Resumo
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 264.
+(babel)             in language  on input line 265.
 [2
 
 
@@ -1550,7 +1550,7 @@ Package babel Info: Redefining portuges shorthand "|
  Abstract
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 281.
+(babel)             in language  on input line 282.
 [3
 
 ]
@@ -1558,14 +1558,14 @@ Package babel Info: Redefining portuges shorthand "|
  Agradecimentos
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 282.
+(babel)             in language  on input line 283.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 293.
 [4
 
 ] (./monografia.toc
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 38.
  [5
 
 ])
@@ -1573,27 +1573,27 @@ Package babel Info: Redefining portuges shorthand "|
 \openout5 = `monografia.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 294.
+(babel)             in language  on input line 295.
  [6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 294.
+(babel)             in language  on input line 295.
  (./monografia.lof)
 \tf@lof=\write6
 \openout6 = `monografia.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 297.
  [7
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 297.
  (./monografia.lot)
 \tf@lot=\write7
 \openout7 = `monografia.lot'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 344.
 
 [8
 
@@ -1602,7 +1602,7 @@ Package babel Info: Redefining portuges shorthand "|
  Dedicatory
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 349.
+(babel)             in language  on input line 350.
 [9
 
 ] (./Capitulos/introA.tex
@@ -1613,94 +1613,116 @@ Package babel Info: Redefining portuges shorthand "|
  1. Introdu\c {c}\IeC {\~a}o
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 22.
 [1
 
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
- [2]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 46.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
-[3]
+(babel)             in language  on input line 61.
+ [3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 85.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 97.
  [4]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 119.
  [5]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 149.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 152.
  [6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 168.
  [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 182.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 197.
+ [8]
+<figuras/0018_curva.png, id=366, 578.16pt x 433.62pt>
+File: figuras/0018_curva.png Graphic file (type png)
+
+<use figuras/0018_curva.png>
+Package pdftex.def Info: figuras/0018_curva.png used on input line 200.
+(pdftex.def)             Requested size: 291.78174pt x 218.8341pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 194.
+(babel)             in language  on input line 211.
+ [9 <./figuras/0018_curva.png>]
+<figuras/0018_correct.png, id=373, 578.16pt x 433.62pt>
+File: figuras/0018_correct.png Graphic file (type png)
+
+<use figuras/0018_correct.png>
+Package pdftex.def Info: figuras/0018_correct.png used on input line 219.
+(pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
+
+<figuras/0018_wrong.png, id=374, 578.16pt x 433.62pt>
+File: figuras/0018_wrong.png Graphic file (type png)
+
+<use figuras/0018_wrong.png>
+Package pdftex.def Info: figuras/0018_wrong.png used on input line 225.
+(pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 196.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 196.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 196.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 196.
-
+(babel)             in language  on input line 243.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 247.
+ [10 <./figuras/0018_correct.png> <./figuras/0018_wrong.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 257.
+ [11]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 258.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 263.
+ [12]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 269.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 276.
+ [13]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 277.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 281.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delta' on input line 198.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 198.
-
-) (./Capitulos/justificativa.tex
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 284.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 288.
+ [14])
+(./Capitulos/justificativa.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
- [8]
+ [15]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+ [16]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
@@ -1708,13 +1730,15 @@ Package babel Info: Redefining portuges shorthand "|
  2. Estrelas Vari\IeC {\'a}veis
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 11.
-[9
-
-]) (./Capitulos/metodologia.tex
+(babel)             in language  on input line 22.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 25.
+) (./Capitulos/metodologia.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [10]
+ [17
+
+]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1722,61 +1746,44 @@ Package babel Info: Redefining portuges shorthand "|
  3. Metodologia
 --------------------
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 11.
+[18
+
+]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
-[11
-
-] <figuras/lightcurve_0018_correct_period.png, id=361, 578.16pt x 433.62pt>
-File: figuras/lightcurve_0018_correct_period.png Graphic file (type png)
-
-<use figuras/lightcurve_0018_correct_period.png>
-Package pdftex.def Info: figuras/lightcurve_0018_correct_period.png used on inp
-ut line 39.
-(pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
-
-<figuras/lightcurve_0018_wrong_period.png, id=363, 578.16pt x 433.62pt>
-File: figuras/lightcurve_0018_wrong_period.png Graphic file (type png)
-
-<use figuras/lightcurve_0018_wrong_period.png>
-Package pdftex.def Info: figuras/lightcurve_0018_wrong_period.png used on input
- line 45.
-(pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 101.
- [12 <./figuras/lightcurve_0018_correct_period.png> <./figuras/lightcurve_0018_
-wrong_period.png>]
+(babel)             in language  on input line 102.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 113.
-
+(babel)             in language  on input line 105.
+ [19]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 160.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 163.
+ [20]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 117.
+(caption)                particular \caption on input line 164.
 See the caption package documentation for explanation.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 130.
-[13] <figuras/drawing.pdf, id=387, 597.50786pt x 845.04686pt>
+<figuras/drawing.pdf, id=467, 597.50786pt x 845.04686pt>
 File: figuras/drawing.pdf Graphic file (type pdf)
 
 <use figuras/drawing.pdf>
-Package pdftex.def Info: figuras/drawing.pdf used on input line 136.
+Package pdftex.def Info: figuras/drawing.pdf used on input line 183.
 (pdftex.def)             Requested size: 358.50748pt x 507.03203pt.
 ) (./Capitulos/resultados.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [14]
+ [21]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [15 <./figuras/drawing.pdf>]
+ [22 <./figuras/drawing.pdf>]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -1792,15 +1799,15 @@ See the caption package documentation for explanation.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
-[16
+[23
 
 ]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
- [17]
-<figuras/dado_sintetico_0_ruido_1_amos.png, id=423, 578.16pt x 433.62pt>
+ [24]
+<figuras/dado_sintetico_0_ruido_1_amos.png, id=501, 578.16pt x 433.62pt>
 File: figuras/dado_sintetico_0_ruido_1_amos.png Graphic file (type png)
 
 <use figuras/dado_sintetico_0_ruido_1_amos.png>
@@ -1808,7 +1815,7 @@ Package pdftex.def Info: figuras/dado_sintetico_0_ruido_1_amos.png used on inpu
 t line 67.
 (pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
 
-<figuras/dado_sintetico_0_ruido_2_amos.png, id=424, 578.16pt x 433.62pt>
+<figuras/dado_sintetico_0_ruido_2_amos.png, id=502, 578.16pt x 433.62pt>
 File: figuras/dado_sintetico_0_ruido_2_amos.png Graphic file (type png)
 
 <use figuras/dado_sintetico_0_ruido_2_amos.png>
@@ -1816,7 +1823,7 @@ Package pdftex.def Info: figuras/dado_sintetico_0_ruido_2_amos.png used on inpu
 t line 73.
 (pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
 
-<figuras/dado_sintetico_0_ruido_0_25_amos.png, id=425, 578.16pt x 433.62pt>
+<figuras/dado_sintetico_0_ruido_0_25_amos.png, id=503, 578.16pt x 433.62pt>
 File: figuras/dado_sintetico_0_ruido_0_25_amos.png Graphic file (type png)
 
 <use figuras/dado_sintetico_0_ruido_0_25_amos.png>
@@ -1824,7 +1831,7 @@ Package pdftex.def Info: figuras/dado_sintetico_0_ruido_0_25_amos.png used on i
 nput line 80.
 (pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
 
-<figuras/dado_sintetico_0_ruido_0_5_amos.png, id=426, 578.16pt x 433.62pt>
+<figuras/dado_sintetico_0_ruido_0_5_amos.png, id=504, 578.16pt x 433.62pt>
 File: figuras/dado_sintetico_0_ruido_0_5_amos.png Graphic file (type png)
 
 <use figuras/dado_sintetico_0_ruido_0_5_amos.png>
@@ -1833,9 +1840,9 @@ put line 86.
 (pdftex.def)             Requested size: 208.41644pt x 156.30818pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 95.
- [18 <./figuras/dado_sintetico_0_ruido_1_amos.png> <./figuras/dado_sintetico_0_
+ [25 <./figuras/dado_sintetico_0_ruido_1_amos.png> <./figuras/dado_sintetico_0_
 ruido_2_amos.png> <./figuras/dado_sintetico_0_ruido_0_25_amos.png> <./figuras/d
-ado_sintetico_0_ruido_0_5_amos.png>] <figuras/ce_inshow.png, id=438, 578.16pt x
+ado_sintetico_0_ruido_0_5_amos.png>] <figuras/ce_inshow.png, id=514, 578.16pt x
  433.62pt>
 File: figuras/ce_inshow.png Graphic file (type png)
 
@@ -1844,63 +1851,59 @@ Package pdftex.def Info: figuras/ce_inshow.png used on input line 100.
 (pdftex.def)             Requested size: 462.52863pt x 346.89647pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 107.
- [19 <./figuras/ce_inshow.png>])
+ [26 <./figuras/ce_inshow.png>])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 381.
- [20]
+(babel)             in language  on input line 382.
+ [27]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 381.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 381.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
+(babel)             in language  on input line 382.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 381.
- [21
+(babel)             in language  on input line 382.
+ [28
 
 ]
-Overfull \hbox (46.75087pt too wide) in paragraph at lines 381--381
+Overfull \hbox (46.75087pt too wide) in paragraph at lines 382--382
 [][]\T1/cmr/m/n/12 Karttunen, H. et al. (2007). \T1/cmr/m/it/12 Fun-da-men-tal 
 As-tro-nomy\T1/cmr/m/n/12 . 5$[]$ ed. Sprin-ger. \T1/cmr/m/sc/12 isbn\T1/cmr/m/
 n/12 : 3540001794,978-
  []
 
 
-Overfull \hbox (8.35164pt too wide) in paragraph at lines 381--381
+Overfull \hbox (8.35164pt too wide) in paragraph at lines 382--382
 \T1/cmr/m/n/12 Em: \T1/cmr/m/it/12 As-trophy-sics and Space Sci-ence \T1/cmr/m/
 n/12 39, pp. 447^^U462. \T1/cmr/m/sc/12 doi\T1/cmr/m/n/12 : [][]$\T1/cmtt/m/n/1
 2 10 . 1007 / BF00648343$[][]\T1/cmr/m/n/12 . 
  []
 
-
-Overfull \hbox (19.03455pt too wide) in paragraph at lines 381--381
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 382.
+[29]
+Overfull \hbox (19.03455pt too wide) in paragraph at lines 382--382
 \T1/cmr/m/n/12 nic Cloud^^Q. Em: \T1/cmr/m/it/12 Acta As-tro-no-mica \T1/cmr/m/
 n/12 59, pp. 1^^U18. ar-Xiv: [][]$\T1/cmtt/m/n/12 0903 . 2482$ [astro-ph.SR][][
 ]\T1/cmr/m/n/12 . 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 385.
-[22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
+(babel)             in language  on input line 386.
+[30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 46E0624D01DB1E252756C13B16F46564;4684.
+(rerunfilecheck)             Checksum: CE05B71B26D51E53E7BB7E5732E1A668;5472.
 Package logreq Info: Writing requests to 'monografia.run.xml'.
 \openout1 = `monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26956 strings out of 493304
- 483517 string characters out of 6139872
+ 27033 strings out of 493304
+ 484415 string characters out of 6139872
  667086 words of memory out of 5000000
- 29911 multiletter control sequences out of 15000+600000
- 29715 words of font info for 74 fonts, out of 8000000 for 9000
+ 29965 multiletter control sequences out of 15000+600000
+ 29946 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,20n,59p,10408b,2640s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -1918,18 +1921,20 @@ xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728
 .pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/tex
 mf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1728.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti2488.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (33 pages, 1086663 bytes).
+c/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfsl1728.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfti2488.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sftt1200.pfb>
+Output written on monografia.pdf (41 pages, 1190084 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
- 114 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 705 PDF objects out of 1000 (max. 8388607)
+ 607 compressed objects within 7 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

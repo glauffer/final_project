@@ -38,3 +38,5 @@ Data
 	|-lmcextmap.pro: rotina em idl para obter os dados da tabela do arquivo acima.
 	|
 	|-extmap.sav: arquivo da rotina em idl (arquivo.pro)
+|
+|-OGLE-LMC-CEP-0018.dat: dados de uma cefeida do catalogo ogle. Utilizado 							 para fazer gráficos de curva de luz como exemplo no 						  tcc. 
