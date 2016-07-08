@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: apresentacao_tcc.aux
+The style file: apalike.bst
+Database file #1: ref.bib
+Warning--empty journal in Udalski2008
+You've used 14 entries,
+            1935 wiz_defined-function locations,
+            562 strings with 6171 characters,
+and the built_in function-call counts, 5695 in all, are:
+= -- 542
+> -- 263
+< -- 9
++ -- 91
+- -- 90
+* -- 497
+:= -- 1016
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 115
+chr.to.int$ -- 13
+cite$ -- 15
+duplicate$ -- 199
+empty$ -- 379
+format.name$ -- 112
+if$ -- 1096
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 73
+num.names$ -- 42
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 115
+quote$ -- 0
+skip$ -- 153
+stack$ -- 0
+substring$ -- 385
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 82
+warning$ -- 1
+while$ -- 42
+width$ -- 0
+write$ -- 182
+(There was 1 warning)

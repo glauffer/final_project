@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Masters/Doctoral Thesis 
+% Masters/Doctoral Thesis
 % LaTeX Template
 % Version 2.1 (2/9/15)
 %
@@ -24,10 +24,10 @@
 %para deixar o arquivo com estilo livro, comentar o "oneside"
 \documentclass[
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
-oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%oneside, Twoside (alternating margins) for binding by default, uncomment to switch to one side
 english, brazil, % ngerman for German
-%singlespacing, % Single line spacing, alternatives: 
-%onehalfspacing,  or 
+%singlespacing, % Single line spacing, alternatives:
+%onehalfspacing,  or
 doublespacing,
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
 nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
@@ -64,11 +64,30 @@ liststotoc, % Uncomment to add the list of figures/tables/etc to the table of co
 \usepackage{color}
 \usepackage{siunitx}
 \usepackage{indentfirst}
+
+%para numerar subsection e aparecer no toc
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage[linesnumbered, ruled, figure, portuguese]{algorithm2e}
+\SetKwBlock{Inicio}{Início}{Fim}
+\SetKwFor{ParaCada}{para cada}{faça}{fim para}
+\usepackage{listings}
+
+\lstset{
+  language=Python,
+  showstringspaces=false,
+  formfeed=newpage,
+  tabsize=4,
+  basicstyle=\footnotesize
+}
+
+
+
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Determinação de Períodos de Pulsação Estelar Através da Entropia Condicional de Shannon} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \engthesistitle{Conditional Shannon Entropy Method to Detect Periods on Variable Stars}
 \supervisor{ Prof. Dr. Fabricio Ferrari} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
@@ -78,9 +97,9 @@ liststotoc, % Uncomment to add the list of figures/tables/etc to the table of co
 
 %\subject{Biological Sciences} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{Universidade Federal do Rio Grande - FURG} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
-\department{Instituto de Matemática, Estatística e Física - IMEF} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
-\group{Grupo de Astrofísica Teórica e Computacional - GATC} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\university{Universidade Federal do Rio Grande} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{Instituto de Matemática, Estatística e Física} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{Grupo de Astrofísica Teórica e Computacional} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 %\faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
@@ -98,112 +117,135 @@ liststotoc, % Uncomment to add the list of figures/tables/etc to the table of co
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-%\begin{titlepage}
-%\begin{center}
-%
-%\textsc{\LARGE \univname}\\[1.5cm] % University name
+\begin{titlepage}
+\begin{center}
+
+\textsc{\Large \univname}\\[0.3cm] % University name
+\textsc{\large \deptname}\\[0.3cm]
+\textsc{ \groupname}\\
+%\vfill
+\vspace{1cm}
 %\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
-%
-%\HRule \\[0.4cm] % Horizontal line
-%{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-%\HRule \\[1.5cm] % Horizontal line
-% 
-%\begin{minipage}{0.4\textwidth}
-%\begin{flushleft} \large
+
+\HRule \\[0.4cm] % Horizontal line
+{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+
+%\vfill
+\vspace{-0.7cm}
+
+%\includegraphics[scale=0.15]{logo4.png}
+%\begin{minipage}{0.5\textwidth}
+%\centering
+%\includegraphics[scale=0.15]{furg.png}
+%\end{minipage}%
+%\begin{minipage}{0.5\textwidth}
+%\centering
+%\includegraphics[scale=0.15]{imef_semnome.jpg}
+%\end{minipage}%
+%\vspace{1.5cm}
+\vfill
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \large
 %\emph{Author:}\\
 %\href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
-%\end{flushleft}
-%\end{minipage}
-%\begin{minipage}{0.4\textwidth}
-%\begin{flushright} \large
-%\emph{Supervisor:} \\
-%\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
-%\end{flushright}
-%\end{minipage}\\[3cm]
-% 
+\textit{Autor: }\\
+\authorname
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+\emph{Orientador:} \\
+%\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link
+\supname
+\end{flushright}
+\end{minipage}\\%[2cm]
+\vfill
+
+%\vfill
 %\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 %\textit{in the}\\[0.4cm]
 %\groupname\\\deptname\\[2cm] % Research group name and department name
-% 
+
 %{\large \today}\\[4cm] % Date
-%%\includegraphics{Logo} % University/department logo - uncomment to place it
-% 
-%\vfill
-%\end{center}
-%\end{titlepage}
+{\large Rio Grande, RS.}%\\[1cm]
+%\includegraphics{Logo} % University/department logo - uncomment to place it
 
-
-\begin{titlepage}
-	\begin{center}
-%\vspace*{1cm}
-\large
-Universidade Federal do Rio Grande - FURG \\
-Instituto de Matemática, Estatística e Física - IMEF \\
-Grupo de Astrofísica Teórica e Computacional - GATC\\
-\vspace{5cm}
-\Huge
-\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional} \\
-\vspace{3cm}
-\Large
-\textbf{Gabriel Lauffer Ramos}
-\vfill
-\large
-Rio Grande - RS \\
-\today
 \end{center}
 \end{titlepage}
 
+
+%\begin{titlepage}
+%	\begin{center}
+%%\vspace*{1cm}
+%\large
+%Universidade Federal do Rio Grande - FURG \\
+%Instituto de Matemática, Estatística e Física - IMEF \\
+%Grupo de Astrofísica Teórica e Computacional - GATC\\
+%\vspace{5cm}
+%\Huge
+%\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional} \\
+%\vspace{3cm}
+%\Large
+%\textbf{Gabriel Lauffer Ramos}
+%\vfill
+%\large
+%Rio Grande - RS \\
+%\today
+%\end{center}
+%\end{titlepage}
+%
 \begin{titlepage}
 	\begin{center}
-		\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia de Shannon Condicional}
+		\textbf{Determinação de Períodos de Pulsação Estelar Através da Entropia Condicional de Shannon}
 
 		\normalsize
-		
+
 		\vfill
 
 		\large
-		
-		\textit{Trabalho de Conclusão de Curso apresentado ao curso de Física Bacharelado da Universidade Federal do Rio Grande como requisito parcial para obtenção do título de bacharel em Física.}\\ [0.3cm] 
+
+		\textit{Trabalho de Conclusão de Curso apresentado ao curso de Física Bacharelado da Universidade Federal do Rio Grande como requisito parcial para obtenção do título de bacharel em Física.}\\ [0.3cm]
 
 		\normalsize
 			\begin{flushright}
 				Discente: Gabriel Lauffer Ramos \\
 				Orientador: Prof. Dr. Fabricio Ferrari
 			\end{flushright}
-			
+
 	\end{center}
-	
+
 	\vfill
 
 	\begin{center}
 		\underline{\hspace{7cm}} \\
 		Prof. Dr. Fabricio Ferrari \\
-		%Intituto de Matemática, Estatística e Física - IMEF \\
-		Orientador
+		Orientador \\
+		IMEF
 	\end{center}
 
 	\vfill
 
-	\begin{minipage}{0.5\textwidth}
+	\begin{minipage}{0.45\textwidth}
 		\centering
-		\underline{\hspace{6cm}}  \\
+		\underline{\hspace{5.5cm}}  \\
 		Profa. Dra. Dinalva A. Sales \\
-		%Intituto de Matemática, Estatística e Física - IMEF \\
-		Banca Examinadora
+		Banca Examinadora \\
+		IMEF
 	\end{minipage}
 %
-	\begin{minipage}{0.5\textwidth}
+	\begin{minipage}{0.45\textwidth}
 		\centering
-		\underline{\hspace{6cm}}   \\
+		\underline{\hspace{5.5cm}}   \\
 		Prof. Dr. Cristian G. Bernal \\
-		%Intituto de Matemática, Estatística e Física - IMEF \\
-		Banca Examinadora
+		Banca Examinadora \\
+		IMEF
 	\end{minipage}
 
 	\vfill
 
 	\begin{flushright}
-		Rio Grande, \underline{\hspace{1cm}} de  \underline{\hspace{4cm}} de  \underline{\hspace{2cm}}.
+		Rio Grande, \underline{\hspace{1cm}} de  \underline{\hspace{3cm}} de  \underline{\hspace{1.5cm}}.
 	\end{flushright}
 
 \end{titlepage}
@@ -219,7 +261,7 @@ Rio Grande - RS \\
 %
 %\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
 %
-%\begin{itemize} 
+%\begin{itemize}
 %\item This work was done wholly or mainly while in candidature for a research degree at this University.
 %\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
 %\item Where I have consulted the published work of others, this is always clearly attributed.
@@ -227,10 +269,10 @@ Rio Grande - RS \\
 %\item I have acknowledged all main sources of help.
 %\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
 %\end{itemize}
-% 
+%
 %\noindent Signed:\\
 %\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
-% 
+%
 %\noindent Date:\\
 %\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 %\end{declaration}
@@ -244,7 +286,7 @@ Rio Grande - RS \\
 \vspace*{0.2\textheight}
 \begin{center}
 \noindent\enquote{\itshape
-    The Road goes ever on and on \\ 
+    The Road goes ever on and on \\
     		Down from the door where it began. \\
     Now far ahead the Road has gone, \\
     		And I must follow, if I can, \\
@@ -264,14 +306,22 @@ Rio Grande - RS \\
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 
-The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+%The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+
+No ramo das estrelas variáveis dentro da astrofísica, geralmente é necessário analisar dados com períodos desconhecidos e com espaçamento variável entre as observações. Este espaçamento é fonte de erro na maioria das técnicas de detecção de períodos que se baseiam em análise de Fourier. Existem diversos algoritmos para a determinação de períodos em dados astronômicos e mesmo com uma grande quantidade de métodos, nenhum deles parece se sobressair de uma forma geral. O objetivo deste trabalho é testar um algoritmo que seja confiável para trabalhar com séries temporais astronômicas e que não seja dependente do espaçamento entre os dados observacionais. Este algoritmo trabalha com a entropia de Shannon condicional, um método que utiliza a dispersão no espaço de fase para obter o período da série temporal através da minimização da entropia. Este método aplicado ao catálogo OGLE retornou um total de $97,7 \%$ de acerto em relação aos períodos reais das estrelas.
+
+
+%Na astronomia, especialmente no campo das estrelas variáveis, geralmente é necessário analisar dados com períodos desconhecidos. Existem métodos desenvolvidos para lidar com dados que possuem intervalos espaciais uniformes, porém as observações geralmente são limitadas para o período da noite e possuem limitações devido ao clima e disponibilidade do telescópio, o que faz com que os dados sejam espaçados por uma ordem de horas, dias ou até mesmo meses. Existem diversos algoritmos para a determinação de períodos em dados astronômicos e mesmo com uma grande quantidade de métodos, nenhum deles parece se sobressair de uma forma geral. O objetivo deste trabalho é testar um algoritmo que seja confiável para trabalhar com séries temporais astronômicas e que não seja dependente do espaçamento entre os dados observacionais. Este algoritmo trabalha com a entropia de Shannon condicional, um método que utiliza a dispersão no espaço de fase para obter o período da série temporal através da minimização da entropia.
+
+%Alguns métodos são melhores para lidar com dados que sejam igualmente espaçados, enquanto que outros são adaptados para lidar com espaçamento variável. Os algoritmos mais utilizados para determinação de períodos em séries temporais astronômicas fazem um ajuste de curva utilizando o método dos mínimos quadrados \citep{lomb} ou utilizam análise de Fourier \citep{mello81}. Outros métodos tentam minimizar alguma grandeza na dispersão da série temporal no espa\c{c}o de fase, como é o caso da análise de variância \citep{aov} e da entropia \citep{entropy}.
 
 \end{abstract}
 
 \selectlanguage{english}
 \begin{abstract}
 \addchaptertocentry{\abstractname}
-abstract in english
+
+In astronomy, specially in the field of variable stars, usually is necessary to analyse data with unknown periodicities. There are many methods developed to deal with evenly sampled data but the observations are usually limited night time and are further restricted to weather conditions and availability of the telescope, which makes the uniform spacing of observations almost impossible. Even with many method available there is no method considered the best overall. In this paper, we present a phase-diagram analyses method called Conditional Shannon Entropy. The idea is to develop a fast and reliable method to work with unevenly and evenly sampled variable stars data. The method applied to the OGLE Survey returned a $97\%$ correct periods compared to the catalog results.
 \end{abstract}
 
 \selectlanguage{brazil}
@@ -282,7 +332,18 @@ abstract in english
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
 
-colocar os agradecimentos\ldots
+\begin{itemize}
+\item Ao meu irmão, Guilherme Lauffer Ramos por ser o corretor ortográfico deste trabalho e sempre estar disposto a me ajudar;
+\item Aos meus pais, Sandro e Eliane por todo o carinho, apoio e incentivo que sempre me deram nos estudos e nas escolhas da vida;
+\item Ao Horaci (Cica) e a Fátima por serem meus pais rio-grandinos e por todo o carinho que tiveram comigo ao longo desses anos;
+\item Aos meus ex-colegas de graduação, principalmente ao Vinícius Becker por ser o melhor amigo que eu poderia encontrar;
+\item Aos meus novos colegas de graduação;
+\item Ao meu orientador, Fabricio Ferrari por ter me acolhido mesmo não sendo a área de sua especialidade e por sempre estar disposto a me orientar e aconselhar;
+\item A todos os professores e servidores do IMEF que influenciaram na minha graduação;
+\item Ao Ph.D Shashi Kanbur por ter me mostrado o ramo das estrelas variáveis, por todas as oportunidades de pesquisa e por todo o suporte  durante o período que estive no exterior;
+\item A CAPES pela bolsa de estudo do programa Ciências sem Fronteiras, sem a qual não seria possível este trabalho,
+\item A minha noiva, Chaiana Fernandez por todo o carinho, preocupação, amizade e por ser o principal mecanismo de pulsação do meu coração!
+\end{itemize}
 
 \end{acknowledgements}
 
@@ -341,7 +402,7 @@ colocar os agradecimentos\ldots
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
-\dedicatory{Dedico este trabalho aos meus pais, por todo o incentivo e esforço deles para me garantirem uma educação de qualidade.} 
+\dedicatory{Dedico este trabalho aos meus pais, por todo o incentivo e esforço deles para me garantirem uma educação de qualidade.}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -357,10 +418,11 @@ colocar os agradecimentos\ldots
 \input{Capitulos/justificativa}
 \input{Capitulos/metodologia}
 \input{Capitulos/resultados}
-%\input{Chapters/Chapter2} 
+\input{Capitulos/conclusao}
+%\input{Chapters/Chapter2}
 %\input{Chapters/Chapter3}
-%\input{Chapters/Chapter4} 
-%\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter4}
+%\input{Chapters/Chapter5}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -374,6 +436,7 @@ colocar os agradecimentos\ldots
 %\input{Appendices/AppendixA}
 %\input{Appendices/AppendixB}
 %\input{Appendices/AppendixC}
+\input{apendice/apendice1}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

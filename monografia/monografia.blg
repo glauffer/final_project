@@ -15,47 +15,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: monografia-blx.bib
 Database file #2: references/ref.bib
+Warning--string name "poster" is undefined
+--line 343 of file references/ref.bib
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 23 entries,
+You've used 30 entries,
             6047 wiz_defined-function locations,
-            1332 strings with 19845 characters,
-and the built_in function-call counts, 71616 in all, are:
-= -- 2402
-> -- 2354
-< -- 605
-+ -- 689
-- -- 917
-* -- 6095
-:= -- 4367
+            1385 strings with 23401 characters,
+and the built_in function-call counts, 96850 in all, are:
+= -- 3322
+> -- 3259
+< -- 857
++ -- 993
+- -- 1296
+* -- 8335
+:= -- 5849
 add.period$ -- 0
-call.type$ -- 23
-change.case$ -- 281
+call.type$ -- 30
+change.case$ -- 409
 chr.to.int$ -- 76
-cite$ -- 44
-duplicate$ -- 8274
-empty$ -- 7896
-format.name$ -- 1557
-if$ -- 16028
+cite$ -- 58
+duplicate$ -- 11106
+empty$ -- 10479
+format.name$ -- 2148
+if$ -- 21735
 int.to.chr$ -- 0
-int.to.str$ -- 49
+int.to.str$ -- 66
 missing$ -- 0
-newline$ -- 770
-num.names$ -- 957
-pop$ -- 7095
+newline$ -- 1020
+num.names$ -- 1305
+pop$ -- 9371
 preamble$ -- 1
-purify$ -- 346
+purify$ -- 504
 quote$ -- 0
-skip$ -- 3988
+skip$ -- 5449
 stack$ -- 0
-substring$ -- 1059
-swap$ -- 3019
-text.length$ -- 599
-text.prefix$ -- 22
+substring$ -- 1550
+swap$ -- 4048
+text.length$ -- 814
+text.prefix$ -- 29
 top$ -- 1
-type$ -- 862
+type$ -- 1128
 warning$ -- 0
-while$ -- 494
+while$ -- 623
 width$ -- 0
-write$ -- 746
+write$ -- 989
+(There was 1 warning)

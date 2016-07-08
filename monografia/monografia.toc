@@ -1,41 +1,63 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {brazil}
-\contentsline {chapter}{Resumo}{ii}{Doc-Start}
+\contentsline {chapter}{Resumo}{v}{Doc-Start}
 \select@language {english}
-\contentsline {chapter}{Abstract}{iii}{Doc-Start}
+\contentsline {chapter}{Abstract}{vii}{Doc-Start}
 \select@language {brazil}
-\contentsline {chapter}{Agradecimentos}{iv}{Doc-Start}
-\contentsline {chapter}{Lista de Figuras}{vii}{chapter*.2}
-\contentsline {chapter}{Lista de Tabelas}{viii}{chapter*.3}
+\contentsline {chapter}{Agradecimentos}{ix}{Doc-Start}
+\contentsline {chapter}{Lista de Figuras}{xiii}{chapter*.2}
+\contentsline {chapter}{Lista de Tabelas}{xv}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\IeC {\~a}o}{1}{chapter.4}
 \contentsline {section}{\numberline {1.1}Conceitos de astrof\IeC {\'\i }sica estelar}{3}{section.5}
 \contentsline {subsection}{\numberline {1.1.1}Fluxo}{3}{subsection.6}
 \contentsline {subsection}{\numberline {1.1.2}Magnitude}{3}{subsection.8}
 \contentsline {subsection}{\numberline {1.1.3}Magnitude absoluta e o m\IeC {\'o}dulo de dist\IeC {\^a}ncia}{4}{subsection.12}
-\contentsline {subsection}{\numberline {1.1.4}Sistemas de magnitudes}{5}{subsection.25}
+\contentsline {subsection}{\numberline {1.1.4}Sistemas de magnitudes (filtros)}{6}{subsection.25}
 \contentsline {subsection}{\numberline {1.1.5}Magnitude bolom\IeC {\'e}trica}{6}{subsection.27}
 \contentsline {subsection}{\numberline {1.1.6}Extin\IeC {\c c}\IeC {\~a}o atmosf\IeC {\'e}rica}{7}{subsection.29}
-\contentsline {subsection}{\numberline {1.1.7}Extin\IeC {\c c}\IeC {\~a}o interestelar}{7}{subsection.31}
-\contentsline {subsection}{\numberline {1.1.8}Data Juliana}{8}{subsection.35}
-\contentsline {subsection}{\numberline {1.1.9}Curva de luz}{8}{subsection.36}
-\contentsline {subsection}{\numberline {1.1.10}Fase e o Espa\IeC {\c c}o de Fase}{8}{subsection.38}
-\contentsline {section}{\numberline {1.2}Introdu\IeC {\c c}\IeC {\~a}o Hist\IeC {\'o}rica - Estrelas Vari\IeC {\'a}veis}{9}{section.41}
-\contentsline {section}{\numberline {1.3}Introdu\IeC {\c c}\IeC {\~a}o Hist\IeC {\'o}rica - T\IeC {\'e}cnicas de Observa\IeC {\c c}\IeC {\~a}o}{11}{section.42}
-\contentsline {subsection}{\numberline {1.3.1}M\IeC {\'e}todos fotogr\IeC {\'a}ficos}{11}{subsection.43}
-\contentsline {subsection}{\numberline {1.3.2}M\IeC {\'e}todos fotoel\IeC {\'e}tricos}{12}{subsection.44}
-\contentsline {subsection}{\numberline {1.3.3}Detectores em \IeC {\'a}rea}{13}{subsection.45}
-\contentsline {section}{\numberline {1.4}Detec\IeC {\c c}\IeC {\~a}o de Per\IeC {\'\i }odos}{14}{section.47}
-\contentsline {chapter}{\numberline {2}Estrelas Vari\IeC {\'a}veis}{16}{chapter.48}
-\contentsline {section}{\numberline {2.1}Vari\IeC {\'a}veis extr\IeC {\'\i }nsecas}{16}{section.49}
-\contentsline {section}{\numberline {2.2}Vari\IeC {\'a}veis intr\IeC {\'\i }nsecas}{16}{section.50}
-\contentsline {chapter}{\numberline {3}Metodologia}{17}{chapter.51}
-\contentsline {section}{\numberline {3.1}Amostragem}{18}{section.52}
-\contentsline {section}{\numberline {3.2}Analise de Fourier}{18}{section.53}
-\contentsline {subsection}{\numberline {3.2.1}Lomb-Scargle}{18}{subsection.54}
-\contentsline {subsection}{\numberline {3.2.2}Entropia de Shannon}{18}{subsection.55}
-\contentsline {section}{\numberline {3.3}Algoritmo}{19}{section.58}
-\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{22}{chapter.61}
-\contentsline {section}{\numberline {4.1}resultado parciais}{22}{section.62}
-\contentsline {subsection}{\numberline {4.1.1}Dados Sint\IeC {\'e}ticos}{23}{subsection.64}
-\contentsline {chapter}{Bibliografia}{27}{appendix*.69}
+\contentsline {subsection}{\numberline {1.1.7}Extin\IeC {\c c}\IeC {\~a}o interestelar}{8}{subsection.32}
+\contentsline {subsection}{\numberline {1.1.8}Data Juliana}{8}{subsection.36}
+\contentsline {subsection}{\numberline {1.1.9}Curva de luz}{8}{subsection.37}
+\contentsline {subsection}{\numberline {1.1.10}Fase e o Espa\IeC {\c c}o de Fase}{9}{subsection.39}
+\contentsline {subsection}{\numberline {1.1.11}Classifica\IeC {\c c}\IeC {\~a}o Espectral}{10}{subsection.42}
+\contentsline {subsection}{\numberline {1.1.12}Diagrama H-R}{11}{subsection.44}
+\contentsline {section}{\numberline {1.2}Pulsa\IeC {\c c}\IeC {\~a}o Estelar}{13}{section.47}
+\contentsline {subsection}{\numberline {1.2.1}Oscila\IeC {\c c}\IeC {\~a}o em uma corda}{14}{subsection.48}
+\contentsline {subsection}{\numberline {1.2.2}Oscila\IeC {\c c}\IeC {\~a}o em uma corda com uma extremidade fixa}{15}{subsection.51}
+\contentsline {subsection}{\numberline {1.2.3}Oscila\IeC {\c c}\IeC {\~a}o bidimensional}{16}{subsection.54}
+\contentsline {subsection}{\numberline {1.2.4}Oscila\IeC {\c c}\IeC {\~o}es em 3 dimens\IeC {\~o}es}{18}{subsection.58}
+\contentsline {subsubsection}{\numberline {1.2.4.1}Modo radial}{19}{subsubsection.64}
+\contentsline {subsubsection}{\numberline {1.2.4.2}Modos n\IeC {\~a}o-radiais}{19}{subsubsection.66}
+\contentsline {section}{\numberline {1.3}Introdu\IeC {\c c}\IeC {\~a}o Hist\IeC {\'o}rica \IeC {\`a}s Estrelas Vari\IeC {\'a}veis}{20}{section.67}
+\contentsline {subsection}{\numberline {1.3.1}T\IeC {\'e}cnicas de Observa\IeC {\c c}\IeC {\~a}o}{21}{subsection.68}
+\contentsline {subsubsection}{\numberline {1.3.1.1}M\IeC {\'e}todos fotogr\IeC {\'a}ficos}{22}{subsubsection.69}
+\contentsline {subsubsection}{\numberline {1.3.1.2}M\IeC {\'e}todos fotoel\IeC {\'e}tricos}{23}{subsubsection.70}
+\contentsline {subsubsection}{\numberline {1.3.1.3}Detectores em \IeC {\'a}rea}{23}{subsubsection.71}
+\contentsline {section}{\numberline {1.4}Detec\IeC {\c c}\IeC {\~a}o de Per\IeC {\'\i }odos}{24}{section.72}
+\contentsline {chapter}{\numberline {2}Estrelas Vari\IeC {\'a}veis}{27}{chapter.73}
+\contentsline {section}{\numberline {2.1}Vari\IeC {\'a}veis Extr\IeC {\'\i }nsecas}{27}{section.75}
+\contentsline {subsection}{\numberline {2.1.1}Vari\IeC {\'a}veis eclipsantes}{28}{subsection.76}
+\contentsline {subsection}{\numberline {2.1.2}Vari\IeC {\'a}veis rotacionais}{29}{subsection.78}
+\contentsline {section}{\numberline {2.2}Vari\IeC {\'a}veis Intr\IeC {\'\i }nsecas}{29}{section.79}
+\contentsline {subsection}{\numberline {2.2.1}Vari\IeC {\'a}veis eruptivas}{30}{subsection.80}
+\contentsline {subsection}{\numberline {2.2.2}Vari\IeC {\'a}veis catacl\IeC {\'\i }smicas}{30}{subsection.81}
+\contentsline {subsection}{\numberline {2.2.3}Vari\IeC {\'a}veis pulsantes}{31}{subsection.83}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Cefeidas}{32}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {2.2.3.2}RR Lyrae}{33}{subsubsection.86}
+\contentsline {section}{\numberline {2.3}Rela\IeC {\c c}\IeC {\~o}es com o Per\IeC {\'\i }odo}{34}{section.88}
+\contentsline {subsection}{\numberline {2.3.1}Per\IeC {\'\i }odo - Luminosidade (\textit {Lei de Leavitt})}{34}{subsection.89}
+\contentsline {subsection}{\numberline {2.3.2}Per\IeC {\'\i }odo - Densidade}{35}{subsection.92}
+\contentsline {chapter}{\numberline {3}Metodologia}{39}{chapter.104}
+\contentsline {section}{\numberline {3.1}Entropia de Shannon}{39}{section.105}
+\contentsline {subsection}{\numberline {3.1.1}Entropia condicional de Shannon }{41}{subsection.108}
+\contentsline {section}{\numberline {3.2}Cat\IeC {\'a}logo OGLE}{42}{section.112}
+\contentsline {section}{\numberline {3.3}Algoritmo}{44}{section.115}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lise Te\IeC {\'o}rica}{45}{section.132}
+\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~a}o}{47}{chapter.135}
+\contentsline {section}{\numberline {4.1}Dados do Cat\IeC {\'a}logo OGLE}{47}{section.136}
+\contentsline {section}{\numberline {4.2}Dados Sint\IeC {\'e}ticos}{48}{section.138}
+\contentsline {section}{\numberline {4.3}Aplica\IeC {\c c}\IeC {\~a}o dos Resultados}{52}{section.146}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{57}{chapter.158}
+\contentsline {chapter}{\numberline {A}Algoritmo}{59}{appendix.159}
+\contentsline {chapter}{Bibliografia}{65}{appendix*.313}

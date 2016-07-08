@@ -4,11 +4,34 @@
 \select@language {english}
 \select@language {brazil}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Exemplo de curva de luz}}{9}{figure.caption.37}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Exemplos de espa\IeC {\c c}o de fase}}{10}{figure.caption.40}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Exemplo de curva de luz}}{9}{figure.caption.38}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Exemplos de espa\IeC {\c c}o de fase}}{10}{figure.caption.41}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagrama H-R.}}{12}{figure.caption.45}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagrama H-R para estrelas vari\IeC {\'a}veis.}}{13}{figure.caption.46}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o em uma corda com extremidades fixas}}{15}{figure.caption.50}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o em uma corda.}}{16}{figure.caption.53}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o radial em um disco.}}{17}{figure.caption.55}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o n\IeC {\~a}o-radial em um disco.}}{17}{figure.caption.56}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o radial e n\IeC {\~a}o-radial em um disco.\relax }}{18}{figure.caption.57}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Oscila\IeC {\c c}\IeC {\~a}o n\IeC {\~a}o-radial em uma esfera.}}{20}{figure.caption.65}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \IeC {\'A}rvore da Variabilidade}}{28}{figure.caption.74}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Curva de vari\IeC {\'a}veis eclipsantes.}}{29}{figure.caption.77}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Curva de luz da Supernova KSN 2011a}}{31}{figure.caption.82}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Curva de luz de Cefeidas}}{32}{figure.caption.85}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Curva de luz de RR Lyrae}}{33}{figure.caption.87}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Exemplos de entropia}}{40}{figure.caption.106}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Efeito de \textit {Aliasing} com per\IeC {\'\i }odo de 1 dia.}}{41}{figure.caption.109}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Pseudo-c\IeC {\'o}digo do algoritmo.}}{44}{figure.caption.117}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Histogramas sobre tempo inicial e final.}}{48}{figure.caption.139}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Histograma sobre quantidade de pontos.}}{49}{figure.caption.142}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Curva de luz sint\IeC {\'e}tica.}}{50}{figure.caption.143}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultados obtidos em escala de cinza.}}{51}{figure.caption.145}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o PL para Cefeidas.}}{54}{figure.caption.153}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Rela\IeC {\c c}\IeC {\~a}o PL para RR Lyraes.}}{54}{figure.caption.154}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Distruibui\IeC {\c c}\IeC {\~a}o de estrelas em coordenadas equatoriais.}}{55}{figure.caption.156}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Distrui\IeC {\c c}\IeC {\~a}o 3D da Grande Nuvem de Magalh\IeC {\~a}es.}}{56}{figure.caption.157}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Fluxograma do algoritmo\relax }}{21}{figure.caption.60}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Exemplos curva de luz sint\IeC {\'e}tica\relax }}{24}{figure.caption.67}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Resultados obtidos em escala de cinza\relax }}{25}{figure.caption.68}

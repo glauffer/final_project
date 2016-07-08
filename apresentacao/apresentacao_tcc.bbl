@@ -1,0 +1,88 @@
+\begin{thebibliography}{}
+
+\bibitem[Cincotta et~al., 1999]{Cincotta1999}
+Cincotta, P.~M., Helmi, A., Mendez, M., Nunez, J.~a., and Vucetich, H. (1999).
+\newblock {Astronomical time-series analysis -- II. A search for periodicity
+  using the Shannon entropy}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  302(3):582--586.
+
+\bibitem[{Cincotta} et~al., 1995]{entropy}
+{Cincotta}, P.~M., {Mendez}, M., and {Nunez}, J.~A. (1995).
+\newblock {Astronomical Time Series Analysis. I. A Search for Periodicity Using
+  Information Entropy}.
+\newblock {\em The Astrophysical Journal}, 449:231.
+
+\bibitem[Deb and Singh, 2014]{Deb2014}
+Deb, S. and Singh, H.~P. (2014).
+\newblock {Chemical and structural analysis of the Large Magellanic Cloud using
+  the fundamental mode RR Lyrae stars}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  438(3):2440--2455.
+
+\bibitem[{Ferraz-Mello}, 1981]{mello81}
+{Ferraz-Mello}, S. (1981).
+\newblock {Estimation of Periods from Unequally Spaced Observations}.
+\newblock {\em The Astronomical Journal}, 86:619.
+
+\bibitem[{Graham} et~al., 2013a]{ce}
+{Graham}, M.~J., {Drake}, A.~J., {Djorgovski}, S.~G., {Mahabal}, A.~A., and
+  {Donalek}, C. (2013a).
+\newblock {Using conditional entropy to identify periodicity}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  434:2629--2635.
+
+\bibitem[{Graham} et~al., 2013b]{comparison}
+{Graham}, M.~J., {Drake}, A.~J., {Djorgovski}, S.~G., {Mahabal}, A.~A.,
+  {Donalek}, C., {Duan}, V., and {Maker}, A. (2013b).
+\newblock {A comparison of period finding algorithms}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  434:3423--3444.
+
+\bibitem[Leavitt and Pickering, 1912]{Leavitt1912}
+Leavitt, H.~S. and Pickering, E.~C. (1912).
+\newblock {Periods of 25 Variable Stars in the Small Magellanic Cloud.}
+\newblock {\em Harvard College Observatory Circular}, 173.
+
+\bibitem[{Lomb}, 1976]{lomb}
+{Lomb}, N.~R. (1976).
+\newblock {Least-squares frequency analysis of unequally spaced data}.
+\newblock {\em Astrophysics \& Space Science}, 39:447--462.
+
+\bibitem[Payne, 1930]{Payne1930}
+Payne, C.~H. (1930).
+\newblock {On the Relation of Period to Mean Density for Cepheid Variables}.
+\newblock {\em Harvard College Observatory Bulletin No. 876}.
+
+\bibitem[Pejcha and Stanek, 2009]{Pejcha2009}
+Pejcha, O. and Stanek, K.~Z. (2009).
+\newblock {THE STRUCTURE OF THE LARGE MAGELLANIC CLOUD STELLAR HALO DERIVED
+  USING OGLE-III RR Lyr STARS}.
+\newblock {\em The Astrophysical Journal}, 704(2):1730--1734.
+
+\bibitem[{Schwarzenberg-Czerny}, 1989]{aov}
+{Schwarzenberg-Czerny}, A. (1989).
+\newblock {On the advantage of using analysis of variance for period search}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  241:153--165.
+
+\bibitem[{Shannon} and Shannon, 1998]{informationTheory}
+{Shannon}, C. and Shannon, W. (1998).
+\newblock {\em Mathematical theory of communication}.
+\newblock University of Illinois Press, first edition edition.
+
+\bibitem[{Soszy{\'n}ski} et~al., 2009]{lyraes}
+{Soszy{\'n}ski}, I., {Udalski}, A., {Szyma{\'n}ski}, M.~K., {Kubiak}, M.,
+  {Pietrzy{\'n}ski}, G., {Wyrzykowski}, {\L}., {Szewczyk}, O., {Ulaczyk}, K.,
+  and {Poleski}, R. (2009).
+\newblock {The Optical Gravitational Lensing Experiment. The OGLE-III Catalog
+  of Variable Stars. III. RR Lyrae Stars in the Large Magellanic Cloud}.
+\newblock {\em Acta Astronomica}, 59:1--18.
+
+\bibitem[Udalski et~al., 2008]{Udalski2008}
+Udalski, A., Szymanski, M.~K., Soszynski, I., and Poleski, R. (2008).
+\newblock {The Optical Gravitational Lensing Experiment. Final Reductions of
+  the OGLE-III Data}.
+\newblock page~13.
+
+\end{thebibliography}

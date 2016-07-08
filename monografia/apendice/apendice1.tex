@@ -1,0 +1,55 @@
+%\documentclass[12pt]{article}
+%
+%\usepackage[utf8]{inputenc} % Required for inputting international characters
+%\usepackage[T1]{fontenc} % Output font encoding for international characters
+%\usepackage[brazil]{babel}
+%\usepackage[linesnumbered, ruled, figure, portuguese]{algorithm2e}
+%\usepackage{listings}
+%
+%\lstset{
+%  language=Python,
+%  showstringspaces=false,
+%  formfeed=newpage,
+%  tabsize=4,
+%  basicstyle=\footnotesize
+%}
+%
+%\SetKwBlock{Inicio}{Início}{Fim}
+%\SetKwFor{ParaCada}{para cada}{faça}{fim para}
+%
+%\begin{document}
+\chapter{Algoritmo}
+\label{apend:algoritmo}
+O código utilizado no trabalho foi criado na linguagem \texttt{Python3} utilizando as bibliotecas \texttt{Numpy}, \texttt{Argparse} e \texttt{os}. O Algoritmo é apresentado a seguir:
+
+\hrulefill
+
+\lstinputlisting[language=Python]{conditional_entropy.py}
+
+%
+%\begin{algorithm}[H]
+%\SetAlgoLined
+%\Entrada{Tempo e Magnitude \\
+%\Saida{Período $P$ que minimiza a entropia}
+%\Inicio{
+%Leitura dos dados de entrada como vetores; \\
+%Cria um vetor com $n$ períodos sendo P = ($p_1$ , $p_2$, $\cdots$, $p_n$); \\
+%Normalização da magnitude;\\
+%%\ParaCada{$p_i$ com $i = 1$  \Ate $i =n$}{
+%\ParaCada{$p_i$ em $P$}{
+%Transformar o tempo para o espaço de fase; \\
+%Faz as repartições e contabiliza os pontos; \\
+%Calcula a entropia de Shannon condicional; \\
+%Armazena a entropia calculada para o período $p_i$
+%}
+%Achar o valor mínimo de entropia: $E_{min}$ = min(Entropia) \\
+%Achar o período que minimiza a entropia: 
+%$P_{E_{min}}$=P[min(entropia)]
+%}
+%\Retorna{$P_{E_{min}}$}
+%}
+%\label{alg:algoritmo}
+%\caption[Esquema básico do algoritmo]{Esquema básico do algoritmo em português estruturado}
+%\end{algorithm}
+%
+%\end{document}

@@ -21,7 +21,7 @@ Data
 |-OGLEIII.ods: compilado dos resultados para CEP FU, CEP FO, RRAB e RRC obidos enquanto estava nos EUA.
 |
 |
-|-ID_mag_period_RA_DE.dat: possui os dados sobre as RRAB do OGLE-III
+|-ID_mag_Period_RA_DE.dat: possui os dados sobre as RRAB do OGLE-III
 |	StarID 	Imédio	Vmédio	PeriodoOGLE		RA 		DE 		PeriodoCE
 |
 |	em que 	Imédio = mean da magnitude aparente na banda I
@@ -39,4 +39,33 @@ Data
 	|
 	|-extmap.sav: arquivo da rotina em idl (arquivo.pro)
 |
-|-OGLE-LMC-CEP-0018.dat: dados de uma cefeida do catalogo ogle. Utilizado 							 para fazer gráficos de curva de luz como exemplo no 						  tcc. 
+|-OGLE-LMC-CEP-0018.dat: dados de uma cefeida do catalogo ogle. Utilizado  para fazer gráficos de curva de luz como exemplo no  tcc.
+|
+|-OGLE-LMC-RRLYR-00032.dat: dados de uma RRLYR C do catalogo ogle utilizado como exemplo de curva de luz no tcc. Possui periodo 0.3535396
+|
+|-OGLE-LMC-RRLYR-00003.dat: dados de uma RRLYR AB do catalogo ogle utilizado como exemplo de curva de luz no tcc. Possui periodo  0.6564975
+|
+|-OGLE-LMC-T2CEP-003.dat: Dados de uma Cefeida Tipo 2 do catalogo Ogle utilizado como exemplo de curva de luz no tcc. Possui periodo 35.6599298
+|
+|-rrab_ti_tf_pontos.txt: Dados de tempo inicial, final e quantidade de pontos de observacao para as RRLYR AB do catalogo OGLE
+			 utilizado para obter os parametros de tempo e amostragem para os dados sinteticos
+|
+|-rrab_mag_corrected.txt: dados da magnitude das RRLYR AB corrigidos com o mapa de extincao lmcextmap.dat
+|
+|-ogle_cepFU_info.txt: dados retirados do catalogo ogle para as CEP FU. Contem star ID, field, mode, RA, DEC, meanI, meanV, parametros fourier
+|
+|-cep_FU_ID_RA_DEC_I.txt: apenas os dados de ID, RA, DEC e meanI extraidos do arquivo acima
+|
+|-ogle_cepFO_info.txt: dados retirados do catalogo ogle para as CEP FO. Contem star ID, field, mode, RA, DEC, meanI, meanV, parametros fourier
+|
+|-cepFO_ID_RA_DEC_I.txt:  apenas os dados de ID, RA, DEC e meanI extraidos do arquivo acima
+|
+|-cep_FU_CEperiod.txt: star ID e CE period para as CEP FU da LMC
+|
+|-cep_FO_CEperiod.txt: star ID e CE period para as CEP FO da LMC
+|
+|-ogle_RRC_info.txt:  dados retirados do catalogo ogle para as RRLYR C. Contem star ID, field, mode, RA, DEC, meanI, meanV, parametros fourier
+|
+|-rrc_ID_RA_DEC_I.txt: apenas os dados de ID, RA, DEC e meanI extraidos do arquivo acima (ogle_RRC_info.txt)
+|
+|-rrlyr_C_CEperiod.txt: star ID e CE period para as RRLYR C da LMC

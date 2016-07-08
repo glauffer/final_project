@@ -304,6 +304,7 @@
 	\tttypeout{\abstractname}
 	\null\vfil
 	\begin{center}
+	{\huge\textbf{\abstractname}}
 %	{\normalsize \MakeUppercase{\univname} \par} % University name in capitals
 %	\bigskip
 %	{\huge\textit{\abstractname} \par}
@@ -313,10 +314,10 @@
 %	\bigskip
 %	{\normalsize \degreename\par} % Degree name
 %	\bigskip
-	{\normalsize\bfseries \@title \par} % Thesis title
-	\medskip
-	{\normalsize \byname{} \authorname \par} % Author name
-	\bigskip
+%	{\normalsize\bfseries \@title \par} % Thesis title
+%	\medskip
+%	{\normalsize \byname{} \authorname \par} % Author name
+%	\bigskip
 	\end{center}
 }
 {

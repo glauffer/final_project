@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.6)  5 MAY 2016 18:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.6)  30 MAY 2016 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,278 +193,246 @@ File: monografia.pdf Graphic file (type pdf)
 <use monografia.pdf>
 Package pdftex.def Info: monografia.pdf used on input line 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- <monografia.pdf, id=4, page=12, 597.50829pt x 845.0471pt>
+ <monografia.pdf, id=4, page=48, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 12>
-Package pdftex.def Info: monografia.pdf, page12 used on input line 4.
+<use monografia.pdf, page 48>
+Package pdftex.def Info: monografia.pdf, page48 used on input line 4.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 12>
-Package pdftex.def Info: monografia.pdf, page12 used on input line 4.
+ <use monografia.pdf, page 48>
+Package pdftex.def Info: monografia.pdf, page48 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 12>
-Package pdftex.def Info: monografia.pdf, page12 used on input line 4.
+<use monografia.pdf, page 48>
+Package pdftex.def Info: monografia.pdf, page48 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 12>
-Package pdftex.def Info: monografia.pdf, page12 used on input line 4.
+ <use monografia.pdf, page 48>
+Package pdftex.def Info: monografia.pdf, page48 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 12>
-Package pdftex.def Info: monografia.pdf, page12 used on input line 4.
+<use monografia.pdf, page 48>
+Package pdftex.def Info: monografia.pdf, page48 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [1
 
  <./monografia.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
-<monografia.pdf, id=21, page=13, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=26, page=49, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 13>
-Package pdftex.def Info: monografia.pdf, page13 used on input line 4.
+<use monografia.pdf, page 49>
+Package pdftex.def Info: monografia.pdf, page49 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 13>
-Package pdftex.def Info: monografia.pdf, page13 used on input line 4.
+ <use monografia.pdf, page 49>
+Package pdftex.def Info: monografia.pdf, page49 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 13>
-Package pdftex.def Info: monografia.pdf, page13 used on input line 4.
+<use monografia.pdf, page 49>
+Package pdftex.def Info: monografia.pdf, page49 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [2 <./monografia.pdf>]
-<monografia.pdf, id=30, page=14, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=85, page=50, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 14>
-Package pdftex.def Info: monografia.pdf, page14 used on input line 4.
+<use monografia.pdf, page 50>
+Package pdftex.def Info: monografia.pdf, page50 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 14>
-Package pdftex.def Info: monografia.pdf, page14 used on input line 4.
+ <use monografia.pdf, page 50>
+Package pdftex.def Info: monografia.pdf, page50 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 14>
-Package pdftex.def Info: monografia.pdf, page14 used on input line 4.
+<use monografia.pdf, page 50>
+Package pdftex.def Info: monografia.pdf, page50 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [3 <./monografia.pdf>]
-<monografia.pdf, id=74, page=15, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=107, page=51, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 15>
-Package pdftex.def Info: monografia.pdf, page15 used on input line 4.
+<use monografia.pdf, page 51>
+Package pdftex.def Info: monografia.pdf, page51 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 15>
-Package pdftex.def Info: monografia.pdf, page15 used on input line 4.
+ <use monografia.pdf, page 51>
+Package pdftex.def Info: monografia.pdf, page51 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 15>
-Package pdftex.def Info: monografia.pdf, page15 used on input line 4.
+<use monografia.pdf, page 51>
+Package pdftex.def Info: monografia.pdf, page51 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [4 <./monografia.pdf>]
-<monografia.pdf, id=88, page=16, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=111, page=52, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 16>
-Package pdftex.def Info: monografia.pdf, page16 used on input line 4.
+<use monografia.pdf, page 52>
+Package pdftex.def Info: monografia.pdf, page52 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 16>
-Package pdftex.def Info: monografia.pdf, page16 used on input line 4.
+ <use monografia.pdf, page 52>
+Package pdftex.def Info: monografia.pdf, page52 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 16>
-Package pdftex.def Info: monografia.pdf, page16 used on input line 4.
+<use monografia.pdf, page 52>
+Package pdftex.def Info: monografia.pdf, page52 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [5 <./monografia.pdf>]
-<monografia.pdf, id=92, page=17, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=135, page=53, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 17>
-Package pdftex.def Info: monografia.pdf, page17 used on input line 4.
+<use monografia.pdf, page 53>
+Package pdftex.def Info: monografia.pdf, page53 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 17>
-Package pdftex.def Info: monografia.pdf, page17 used on input line 4.
+ <use monografia.pdf, page 53>
+Package pdftex.def Info: monografia.pdf, page53 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 17>
-Package pdftex.def Info: monografia.pdf, page17 used on input line 4.
+<use monografia.pdf, page 53>
+Package pdftex.def Info: monografia.pdf, page53 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [6 <./monografia.pdf>]
-<monografia.pdf, id=101, page=18, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=159, page=54, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 18>
-Package pdftex.def Info: monografia.pdf, page18 used on input line 4.
+<use monografia.pdf, page 54>
+Package pdftex.def Info: monografia.pdf, page54 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 18>
-Package pdftex.def Info: monografia.pdf, page18 used on input line 4.
+ <use monografia.pdf, page 54>
+Package pdftex.def Info: monografia.pdf, page54 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 18>
-Package pdftex.def Info: monografia.pdf, page18 used on input line 4.
+<use monografia.pdf, page 54>
+Package pdftex.def Info: monografia.pdf, page54 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [7 <./monografia.pdf>]
-<monografia.pdf, id=121, page=19, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=164, page=55, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 19>
-Package pdftex.def Info: monografia.pdf, page19 used on input line 4.
+<use monografia.pdf, page 55>
+Package pdftex.def Info: monografia.pdf, page55 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 19>
-Package pdftex.def Info: monografia.pdf, page19 used on input line 4.
+ <use monografia.pdf, page 55>
+Package pdftex.def Info: monografia.pdf, page55 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 19>
-Package pdftex.def Info: monografia.pdf, page19 used on input line 4.
+<use monografia.pdf, page 55>
+Package pdftex.def Info: monografia.pdf, page55 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [8 <./monografia.pdf>]
-<monografia.pdf, id=130, page=20, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=168, page=56, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 20>
-Package pdftex.def Info: monografia.pdf, page20 used on input line 4.
+<use monografia.pdf, page 56>
+Package pdftex.def Info: monografia.pdf, page56 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 20>
-Package pdftex.def Info: monografia.pdf, page20 used on input line 4.
+ <use monografia.pdf, page 56>
+Package pdftex.def Info: monografia.pdf, page56 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 20>
-Package pdftex.def Info: monografia.pdf, page20 used on input line 4.
+<use monografia.pdf, page 56>
+Package pdftex.def Info: monografia.pdf, page56 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [9 <./monografia.pdf>]
-<monografia.pdf, id=137, page=21, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=177, page=57, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 21>
-Package pdftex.def Info: monografia.pdf, page21 used on input line 4.
+<use monografia.pdf, page 57>
+Package pdftex.def Info: monografia.pdf, page57 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 21>
-Package pdftex.def Info: monografia.pdf, page21 used on input line 4.
+ <use monografia.pdf, page 57>
+Package pdftex.def Info: monografia.pdf, page57 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 21>
-Package pdftex.def Info: monografia.pdf, page21 used on input line 4.
+<use monografia.pdf, page 57>
+Package pdftex.def Info: monografia.pdf, page57 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [10 <./monografia.pdf>]
-<monografia.pdf, id=156, page=22, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=184, page=58, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 22>
-Package pdftex.def Info: monografia.pdf, page22 used on input line 4.
+<use monografia.pdf, page 58>
+Package pdftex.def Info: monografia.pdf, page58 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 22>
-Package pdftex.def Info: monografia.pdf, page22 used on input line 4.
+ <use monografia.pdf, page 58>
+Package pdftex.def Info: monografia.pdf, page58 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 22>
-Package pdftex.def Info: monografia.pdf, page22 used on input line 4.
+<use monografia.pdf, page 58>
+Package pdftex.def Info: monografia.pdf, page58 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [11 <./monografia.pdf>]
-<monografia.pdf, id=160, page=23, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=197, page=59, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 23>
-Package pdftex.def Info: monografia.pdf, page23 used on input line 4.
+<use monografia.pdf, page 59>
+Package pdftex.def Info: monografia.pdf, page59 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 23>
-Package pdftex.def Info: monografia.pdf, page23 used on input line 4.
+ <use monografia.pdf, page 59>
+Package pdftex.def Info: monografia.pdf, page59 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 23>
-Package pdftex.def Info: monografia.pdf, page23 used on input line 4.
+<use monografia.pdf, page 59>
+Package pdftex.def Info: monografia.pdf, page59 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [12 <./monografia.pdf>]
-<monografia.pdf, id=164, page=24, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=205, page=60, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 24>
-Package pdftex.def Info: monografia.pdf, page24 used on input line 4.
+<use monografia.pdf, page 60>
+Package pdftex.def Info: monografia.pdf, page60 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 24>
-Package pdftex.def Info: monografia.pdf, page24 used on input line 4.
+ <use monografia.pdf, page 60>
+Package pdftex.def Info: monografia.pdf, page60 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 24>
-Package pdftex.def Info: monografia.pdf, page24 used on input line 4.
+<use monografia.pdf, page 60>
+Package pdftex.def Info: monografia.pdf, page60 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
  [13 <./monografia.pdf>]
-<monografia.pdf, id=169, page=25, 597.50829pt x 845.0471pt>
+<monografia.pdf, id=210, page=61, 597.50829pt x 845.0471pt>
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 25>
-Package pdftex.def Info: monografia.pdf, page25 used on input line 4.
+<use monografia.pdf, page 61>
+Package pdftex.def Info: monografia.pdf, page61 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 25>
-Package pdftex.def Info: monografia.pdf, page25 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: monografia.pdf Graphic file (type pdf)
-
-<use monografia.pdf, page 25>
-Package pdftex.def Info: monografia.pdf, page25 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [14 <./monografia.pdf>]
-<monografia.pdf, id=183, page=26, 597.50829pt x 845.0471pt>
-File: monografia.pdf Graphic file (type pdf)
-
-<use monografia.pdf, page 26>
-Package pdftex.def Info: monografia.pdf, page26 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 26>
-Package pdftex.def Info: monografia.pdf, page26 used on input line 4.
+ <use monografia.pdf, page 61>
+Package pdftex.def Info: monografia.pdf, page61 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
 File: monografia.pdf Graphic file (type pdf)
 
-<use monografia.pdf, page 26>
-Package pdftex.def Info: monografia.pdf, page26 used on input line 4.
+<use monografia.pdf, page 61>
+Package pdftex.def Info: monografia.pdf, page61 used on input line 4.
 (pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [15 <./monografia.pdf>]
-<monografia.pdf, id=187, page=27, 597.50829pt x 845.0471pt>
-File: monografia.pdf Graphic file (type pdf)
-
-<use monografia.pdf, page 27>
-Package pdftex.def Info: monografia.pdf, page27 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: monografia.pdf Graphic file (type pdf)
- <use monografia.pdf, page 27>
-Package pdftex.def Info: monografia.pdf, page27 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
-File: monografia.pdf Graphic file (type pdf)
-
-<use monografia.pdf, page 27>
-Package pdftex.def Info: monografia.pdf, page27 used on input line 4.
-(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
- [16 <./monografia.pdf>] (./separar_pdf.aux) ) 
+ [14 <./monografia.pdf>] (./separar_pdf.aux) ) 
 Here is how much of TeX's memory you used:
- 2748 strings out of 493304
- 39730 string characters out of 6139872
+ 2742 strings out of 493304
+ 39584 string characters out of 6139872
  102283 words of memory out of 5000000
- 6199 multiletter control sequences out of 15000+600000
+ 6193 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  40i,18n,46p,244b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -475,22 +443,24 @@ blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
-x1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
-0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
-200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on separar_pdf.pdf (16 pages, 582691 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pf
+b>
+Output written on separar_pdf.pdf (14 pages, 1720223 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 241 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
